@@ -9,6 +9,7 @@ const App = () => {
 
   return (
     <div>
+      <Header/>
       <Routers />
     </div>
   )
