@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import App from "./App"
 import "./index.css"
+import { BrowserRouter } from 'react-router-dom'
 
 // 1. Import `createTheme`
 import { createTheme, NextUIProvider } from "@nextui-org/react"
@@ -23,7 +24,9 @@ const myDarkTheme = createTheme({
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <NextUIProvider theme={myDarkTheme}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </NextUIProvider>
   </React.StrictMode>,
 )
