@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import { Container } from "@nextui-org/react"
 import './App.css'
 
 const App = () => {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <Container>
       <Header/>
-    </div>
+    </Container>
   )
 }
 
