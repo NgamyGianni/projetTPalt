@@ -55,6 +55,12 @@ public class InitController{
         return repository.findAll();
     }
 
+    @GetMapping("/findAllCinoche")
+    public List<Cinema> findAllCinoche() {
+        System.out.println("findAllCinoche : ");
+        return cinoche.findAll();
+    }
+
     @GetMapping("/findUserById/{id}")
     public Optional<Client> findUserById(@PathVariable int id) {
         System.out.println("findUserById : ");
