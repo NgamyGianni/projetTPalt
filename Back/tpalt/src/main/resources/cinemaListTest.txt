@@ -1,0 +1,2074 @@
+<div id="theaters">
+    </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Les Rhodos au Grand-Bornand Village</div>
+          <div class="col w20">Le Grand-Bornand (74450)</div>
+          <div class="col w10">198845</div>
+          <div class="col w20">13/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/1"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/1/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Le Studio - cinéma</div>
+          <div class="col w20">Valmorel (73260)</div>
+          <div class="col w10">340507</div>
+          <div class="col w20">08/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/2"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/2/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinema le Fanny</div>
+          <div class="col w20">Saint-François-Longchamp (73130)</div>
+          <div class="col w10">315395</div>
+          <div class="col w20">09/03/2020</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/3"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/3/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Gaumont Archamps</div>
+          <div class="col w20">Archamps (74160)</div>
+          <div class="col w10">113527</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/4"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/4/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Charmieux au Grand-Bornand Chinaillon</div>
+          <div class="col w20">Le Grand-Bornand (74450)</div>
+          <div class="col w10">198856</div>
+          <div class="col w20">13/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/5"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/5/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Ariane</div>
+          <div class="col w20">Le Corbier (73300)</div>
+          <div class="col w10">397198</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/6"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/6/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Chamois</div>
+          <div class="col w20">Châtel (74390)</div>
+          <div class="col w10">128132</div>
+          <div class="col w20">31/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/7"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/7/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Morclan 2000</div>
+          <div class="col w20">Châtel (74390)</div>
+          <div class="col w10">126109</div>
+          <div class="col w20">31/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/8"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/8/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma</div>
+          <div class="col w20">Les Gets (74260)</div>
+          <div class="col w10">204391</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/9"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/9/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné Actuel</div>
+          <div class="col w20">Annemasse (74100)</div>
+          <div class="col w10">78411</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/10"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/10/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma l'eden 123</div>
+          <div class="col w20">Villefranche-sur-Saône (69400)</div>
+          <div class="col w10">109854</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/11"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/11/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Décavision</div>
+          <div class="col w20">Annecy (74000)</div>
+          <div class="col w10">337768</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/12"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/12/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Salle de cinéma</div>
+          <div class="col w20">Noirétable (42440)</div>
+          <div class="col w10">110844</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/13"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/13/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéval</div>
+          <div class="col w20">Vaugneray (69670)</div>
+          <div class="col w10">152468</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/14"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/14/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma "Ciné Laudon"</div>
+          <div class="col w20">Saint-Jorioz (74410)</div>
+          <div class="col w10">116006</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/15"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/15/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma 4 Nemours</div>
+          <div class="col w20">Annecy (74000)</div>
+          <div class="col w10">705223</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/16"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/16/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma "Ciné-Talloires"</div>
+          <div class="col w20">Talloires (74290)</div>
+          <div class="col w10">705212</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/17"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/17/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma les 400 coups</div>
+          <div class="col w20">Villefranche-sur-Saône (69400)</div>
+          <div class="col w10">106397</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/18"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/18/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma rex</div>
+          <div class="col w20">Villefranche-sur-Saône (69400)</div>
+          <div class="col w10">113392</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/19"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/19/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné Léman</div>
+          <div class="col w20">Thonon-les-Bains (74200)</div>
+          <div class="col w10">156566</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/20"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/20/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le France</div>
+          <div class="col w20">Thonon-les-Bains (74200)</div>
+          <div class="col w10">156569</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/21"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/21/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma le Cin'Etoile</div>
+          <div class="col w20">Saint-Bonnet-le-Château (42380)</div>
+          <div class="col w10">611566</div>
+          <div class="col w20">07/04/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/22"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/22/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Quai des Arts</div>
+          <div class="col w20">Usson-en-Forez (42550)</div>
+          <div class="col w10">611506</div>
+          <div class="col w20">15/03/2016</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/23"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/23/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Théâtre Le Phénix - Laragne-Montéglin</div>
+          <div class="col w20">Laragne-Montéglin (05300)</div>
+          <div class="col w10">404452</div>
+          <div class="col w20">16/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/24"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/24/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma La Passerelle</div>
+          <div class="col w20">Trévoux (01600)</div>
+          <div class="col w10">391631</div>
+          <div class="col w20">24/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/25"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/25/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma le Salève</div>
+          <div class="col w20">Annemasse (74100)</div>
+          <div class="col w10">430558</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/26"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/26/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Municipal Agora</div>
+          <div class="col w20">Guilherand-Granges (07500)</div>
+          <div class="col w10">94133</div>
+          <div class="col w20">14/06/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/27"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/27/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma La Chaudanne</div>
+          <div class="col w20">Arêches-Beaufort (73270)</div>
+          <div class="col w10">713096</div>
+          <div class="col w20">20/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/28"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/28/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Colisée</div>
+          <div class="col w20">Saint-Galmier (42330)</div>
+          <div class="col w10">120649</div>
+          <div class="col w20">26/09/2016</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/29"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/29/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné Galaure</div>
+          <div class="col w20">Saint-Vallier (26240)</div>
+          <div class="col w10">60282</div>
+          <div class="col w20">14/06/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/30"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/30/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Paradiso</div>
+          <div class="col w20">Saint-Martin-en-Haut (69850)</div>
+          <div class="col w10">109179</div>
+          <div class="col w20">11/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/31"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/31/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Méribel</div>
+          <div class="col w20">Méribel (73550)</div>
+          <div class="col w10">732187</div>
+          <div class="col w20">14/08/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/32"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/32/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Méribel-Mottaret</div>
+          <div class="col w20">Méribel (73550)</div>
+          <div class="col w10">732498</div>
+          <div class="col w20">30/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/33"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/33/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Rex</div>
+          <div class="col w20">Le Péage-de-Roussillon (38550)</div>
+          <div class="col w10">319779</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/34"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/34/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">cinéma</div>
+          <div class="col w20">Vienne (38200)</div>
+          <div class="col w10">140968</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/35"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/35/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma "Le Grand Air"</div>
+          <div class="col w20">La Norma (73500)</div>
+          <div class="col w10">704021</div>
+          <div class="col w20">19/07/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/36"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/36/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Espace culturel Jean Carmet</div>
+          <div class="col w20">Mornant (69440)</div>
+          <div class="col w10">152224</div>
+          <div class="col w20">22/09/2020</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/37"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/37/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Palace</div>
+          <div class="col w20">Aubenas (07200)</div>
+          <div class="col w10">134434</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/38"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/38/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Club</div>
+          <div class="col w20">Nantua (01130)</div>
+          <div class="col w10">107577</div>
+          <div class="col w20">21/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/39"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/39/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Centre Culturel Aragon</div>
+          <div class="col w20">Oyonnax (01100)</div>
+          <div class="col w10">129332</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/40"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/40/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Atmosphère</div>
+          <div class="col w20">Oyonnax (01100)</div>
+          <div class="col w10">596570</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/41"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/41/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma le Foyer</div>
+          <div class="col w20">Rosières (07260)</div>
+          <div class="col w10">144647</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/42"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/42/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Salle Vesprade</div>
+          <div class="col w20">Thueyts (07330)</div>
+          <div class="col w10">124177</div>
+          <div class="col w20">02/05/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/43"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/43/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma L'Arlequin</div>
+          <div class="col w20">Belley (01300)</div>
+          <div class="col w10">129038</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/44"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/44/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Foyer</div>
+          <div class="col w20">Saint-Symphorien-sur-Coise (69590)</div>
+          <div class="col w10">93724</div>
+          <div class="col w20">02/03/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/45"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/45/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Panoramic</div>
+          <div class="col w20">Megève (74120)</div>
+          <div class="col w10">123774</div>
+          <div class="col w20">14/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/46"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/46/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Rochebrune</div>
+          <div class="col w20">Megève (74120)</div>
+          <div class="col w10">120747</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/47"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/47/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma "Le Royal"</div>
+          <div class="col w20">Évian-les-Bains (74500)</div>
+          <div class="col w10">147178</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/48"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/48/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Ruitor</div>
+          <div class="col w20">La Rosière - Montvalezan (73700)</div>
+          <div class="col w10">84215</div>
+          <div class="col w20">18/02/2016</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/49"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/49/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinema edelweiss</div>
+          <div class="col w20">Thônes (74230)</div>
+          <div class="col w10">189626</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/50"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/50/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Navire</div>
+          <div class="col w20">Aubenas (07200)</div>
+          <div class="col w10">134447</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/51"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/51/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma les Quinconces</div>
+          <div class="col w20">Vals-les-Bains (07600)</div>
+          <div class="col w10">423010</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/52"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/52/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Multiplexe Amphi</div>
+          <div class="col w20">Bourg-en-Bresse (01000)</div>
+          <div class="col w10">121862</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/53"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/53/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Clap</div>
+          <div class="col w20">Lans-en-Vercors (38250)</div>
+          <div class="col w10">201946</div>
+          <div class="col w20">26/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/54"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/54/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Le cinéma Vox</div>
+          <div class="col w20">Chamonix-Mont-Blanc (74400)</div>
+          <div class="col w10">140175</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/55"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/55/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Les Variétés</div>
+          <div class="col w20">Bellegarde-sur-Valserine (01200)</div>
+          <div class="col w10">158487</div>
+          <div class="col w20">13/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/56"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/56/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Vivarais</div>
+          <div class="col w20">Privas (07000)</div>
+          <div class="col w10">105515</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/57"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/57/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Vauban</div>
+          <div class="col w20">Briançon (05100)</div>
+          <div class="col w10">273736</div>
+          <div class="col w20">02/04/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/58"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/58/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Art et Essai Eden Studio</div>
+          <div class="col w20">Briançon (05100)</div>
+          <div class="col w10">273755</div>
+          <div class="col w20">06/07/2020</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/59"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/59/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Coeur d'Or</div>
+          <div class="col w20">Bourg-Saint-Maurice (73700)</div>
+          <div class="col w10">86670</div>
+          <div class="col w20">22/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/60"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/60/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Dauphin</div>
+          <div class="col w20">Morestel (38510)</div>
+          <div class="col w10">117878</div>
+          <div class="col w20">18/11/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/61"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/61/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma de l'Ubac</div>
+          <div class="col w20">Les Orres (05200)</div>
+          <div class="col w10">283543</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/62"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/62/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma l'Oron</div>
+          <div class="col w20">Beaurepaire (38270)</div>
+          <div class="col w10">122268</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/63"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/63/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Club</div>
+          <div class="col w20">La Côte-Saint-André (38260)</div>
+          <div class="col w10">114858</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/64"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/64/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma "Casse-Massion"</div>
+          <div class="col w20">Albiez-Montrond (73300)</div>
+          <div class="col w10">552635</div>
+          <div class="col w20">17/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/65"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/65/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma</div>
+          <div class="col w20">Châtillon-sur-Chalaronne (01400)</div>
+          <div class="col w10">91889</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/66"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/66/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Les Variétés</div>
+          <div class="col w20">Veynes (05400)</div>
+          <div class="col w10">286359</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/67"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/67/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma l'Embellie</div>
+          <div class="col w20">Fourneaux (73500)</div>
+          <div class="col w10">585708</div>
+          <div class="col w20">15/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/68"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/68/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Patio</div>
+          <div class="col w20">Gex (01170)</div>
+          <div class="col w10">364078</div>
+          <div class="col w20">14/06/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/69"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/69/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma les Flocons aux Menuires</div>
+          <div class="col w20">Les Menuires (73440)</div>
+          <div class="col w10">210858</div>
+          <div class="col w20">03/07/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/70"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/70/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma des Bruyères</div>
+          <div class="col w20">Les Menuires (73440)</div>
+          <div class="col w10">210861</div>
+          <div class="col w20">19/08/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/71"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/71/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma</div>
+          <div class="col w20">Valloire (73450)</div>
+          <div class="col w10">377851</div>
+          <div class="col w20">16/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/72"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/72/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Ciné Villages</div>
+          <div class="col w20">Doussard (74210)</div>
+          <div class="col w10">114854</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/73"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/73/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">LE DÔME Cinéma</div>
+          <div class="col w20">Albertville (73200)</div>
+          <div class="col w10">203812</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/74"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/74/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Rex</div>
+          <div class="col w20">Montbrison Moingt (42600)</div>
+          <div class="col w10">157175</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/75"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/75/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Family cinéma</div>
+          <div class="col w20">Saint-Just-Saint-Rambert (42170)</div>
+          <div class="col w10">155758</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/76"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/76/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Mégarama</div>
+          <div class="col w20">La Salle les Alpes (05240)</div>
+          <div class="col w10">235005</div>
+          <div class="col w20">27/02/2020</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/77"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/77/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Lumière</div>
+          <div class="col w20">Le Monêtier-les-Bains (05220)</div>
+          <div class="col w10">235003</div>
+          <div class="col w20">22/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/78"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/78/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Serre d'Aigle</div>
+          <div class="col w20">Saint-Chaffrey (05330)</div>
+          <div class="col w10">234994</div>
+          <div class="col w20">26/02/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/79"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/79/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Pathé Chambéry Les Halles</div>
+          <div class="col w20">Chambéry (73000)</div>
+          <div class="col w10">151092</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/80"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/80/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Les Choucas</div>
+          <div class="col w20">Les Carroz-d'Arâches (74300)</div>
+          <div class="col w10">155934</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/81"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/81/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Palais</div>
+          <div class="col w20">Alpe d'Huez (38750)</div>
+          <div class="col w10">206437</div>
+          <div class="col w20">02/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/82"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/82/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Signal - Mégarama</div>
+          <div class="col w20">Alpe d'Huez (38750)</div>
+          <div class="col w10">206424</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/83"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/83/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">UGC Normandie</div>
+          <div class="col w20">Paris 8ème (75008)</div>
+          <div class="col w10">773067</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/84"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/84/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Star</div>
+          <div class="col w20">Saint-Jean-de-Maurienne (73300)</div>
+          <div class="col w10">297837</div>
+          <div class="col w20">24/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/85"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/85/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Passr'L</div>
+          <div class="col w20">Voiron (38500)</div>
+          <div class="col w10">132052</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/86"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/86/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Cinq</div>
+          <div class="col w20">Lagny-sur-Marne (77400)</div>
+          <div class="col w10">726541</div>
+          <div class="col w20">14/06/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/87"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/87/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéparadis</div>
+          <div class="col w20">Fontainebleau (77300)</div>
+          <div class="col w10">754227</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/88"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/88/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma l'Ermitage</div>
+          <div class="col w20">Fontainebleau (77300)</div>
+          <div class="col w10">675570</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/89"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/89/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Schuss</div>
+          <div class="col w20">Chamrousse (38410)</div>
+          <div class="col w10">782376</div>
+          <div class="col w20">02/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/90"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/90/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Challenger</div>
+          <div class="col w20">Challes-les-Eaux (73190)</div>
+          <div class="col w10">114936</div>
+          <div class="col w20">14/06/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/91"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/91/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Scialet de Gresse-en-Vercors</div>
+          <div class="col w20">Gresse-en-Vercors (38650)</div>
+          <div class="col w10">338152</div>
+          <div class="col w20">02/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/92"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/92/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Art et Plaisirs</div>
+          <div class="col w20">Voreppe (38340)</div>
+          <div class="col w10">206932</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/93"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/93/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Chantecler</div>
+          <div class="col w20">Ugine (73400)</div>
+          <div class="col w10">515167</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/94"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/94/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">LE DÔME Gambetta</div>
+          <div class="col w20">Albertville (73200)</div>
+          <div class="col w10">275262</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/95"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/95/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Les Variétés</div>
+          <div class="col w20">Melun (77000)</div>
+          <div class="col w10">772781</div>
+          <div class="col w20">14/06/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/96"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/96/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma  Le Jeu de Paume</div>
+          <div class="col w20">Vizille (38220)</div>
+          <div class="col w10">256071</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/97"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/97/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Novelty</div>
+          <div class="col w20">Hauteville-Lompnes (01110)</div>
+          <div class="col w10">129657</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/98"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/98/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Ciné Mourguet</div>
+          <div class="col w20">Sainte-Foy-lès-Lyon (69110)</div>
+          <div class="col w10">190102</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/99"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/99/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinema La Ramasse</div>
+          <div class="col w20">Lanslebourg-Mont-Cenis (73480)</div>
+          <div class="col w10">772166</div>
+          <div class="col w20">05/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/100"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/100/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma</div>
+          <div class="col w20">Douvaine (74140)</div>
+          <div class="col w10">430164</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/101"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/101/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">EuropaCorp CINEMAS</div>
+          <div class="col w20">Tremblay-en-France (93290)</div>
+          <div class="col w10">858297</div>
+          <div class="col w20">15/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/102"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/102/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Cartus</div>
+          <div class="col w20">Saint-Laurent-du-Pont (38380)</div>
+          <div class="col w10">335523</div>
+          <div class="col w20">17/07/2021</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/103"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/103/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma le Montcelet</div>
+          <div class="col w20">Entre-deux-Guiers (38380)</div>
+          <div class="col w10">399335</div>
+          <div class="col w20">05/05/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/104"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/104/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Le Curial</div>
+          <div class="col w20">Chambéry (73000)</div>
+          <div class="col w10">151373</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/105"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/105/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Rex</div>
+          <div class="col w20">Morzine (74110)</div>
+          <div class="col w10">261280</div>
+          <div class="col w20">15/02/2017</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/106"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/106/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Séance cinéma Cinébus</div>
+          <div class="col w20">Taninges (74440)</div>
+          <div class="col w10">116636</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/107"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/107/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné Plagne - Espace Régis Wargnier</div>
+          <div class="col w20">La Plagne (73210)</div>
+          <div class="col w10">158809</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/108"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/108/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma L'Étoile-Palace</div>
+          <div class="col w20">Vichy (03200)</div>
+          <div class="col w10">923583</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/109"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/109/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Les Toiles du Lac</div>
+          <div class="col w20">Aix-les-Bains (73100)</div>
+          <div class="col w10">194889</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/110"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/110/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Montchavin-la Plagne</div>
+          <div class="col w20">Montchavin-La-Plagne (73210)</div>
+          <div class="col w10">167250</div>
+          <div class="col w20">21/08/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/111"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/111/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Rex</div>
+          <div class="col w20">Villard-de-Lans (38250)</div>
+          <div class="col w10">181757</div>
+          <div class="col w20">18/11/2021</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/112"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/112/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma "Ciné Mont-Blanc"</div>
+          <div class="col w20">Sallanches (74700)</div>
+          <div class="col w10">110777</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/113"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/113/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Strapontin</div>
+          <div class="col w20">Sain-Bel (69210)</div>
+          <div class="col w10">105482</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/114"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/114/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinema l'Igloo</div>
+          <div class="col w20">La Toussuire (73300)</div>
+          <div class="col w10">340427</div>
+          <div class="col w20">04/04/2018</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/115"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/115/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Victoria</div>
+          <div class="col w20">Aix-les-Bains (73100)</div>
+          <div class="col w10">214087</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/116"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/116/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma</div>
+          <div class="col w20">Les Karellis (73870)</div>
+          <div class="col w10">330630</div>
+          <div class="col w20">14/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/117"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/117/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Jean Gabin</div>
+          <div class="col w20">Montgenèvre (05100)</div>
+          <div class="col w10">876032</div>
+          <div class="col w20">09/04/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/118"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/118/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">L'Astrée</div>
+          <div class="col w20">Chambéry (73000)</div>
+          <div class="col w10">151344</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/119"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/119/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Le Forum</div>
+          <div class="col w20">Chambéry (73000)</div>
+          <div class="col w10">151305</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/120"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/120/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Espace Vivans</div>
+          <div class="col w20">Les Vans (07140)</div>
+          <div class="col w10">173207</div>
+          <div class="col w20">15/11/2017</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/121"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/121/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Doron</div>
+          <div class="col w20">Brides-les-Bains (73570)</div>
+          <div class="col w10">216656</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/122"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/122/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Lumière Terreaux</div>
+          <div class="col w20">Lyon 1er (69001)</div>
+          <div class="col w10">204114</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/123"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/123/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Lumière Bellecour</div>
+          <div class="col w20">Lyon 2ème (69002)</div>
+          <div class="col w10">204115</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/124"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/124/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Lumière Fourmi</div>
+          <div class="col w20">Lyon 3ème (69003)</div>
+          <div class="col w10">4755951</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/125"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/125/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma - Espace Culturel Le Savoie</div>
+          <div class="col w20">Saint-Michel-de-Maurienne (73140)</div>
+          <div class="col w10">637297</div>
+          <div class="col w20">03/10/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/126"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/126/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Rex</div>
+          <div class="col w20">Sisteron (04200)</div>
+          <div class="col w10">860970</div>
+          <div class="col w20">23/03/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/127"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/127/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Rouge et Noir</div>
+          <div class="col w20">Saint-Julien-en-Genevois (74160)</div>
+          <div class="col w10">119331</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/128"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/128/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma l'Alhambra</div>
+          <div class="col w20">Saint-Étienne (42000)</div>
+          <div class="col w10">47468</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/129"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/129/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Melies</div>
+          <div class="col w20">Saint-Étienne (42000)</div>
+          <div class="col w10">47527</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/130"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/130/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Le Camion Rouge</div>
+          <div class="col w20">Saint-Étienne (42000)</div>
+          <div class="col w10">619782</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/131"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/131/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Melies St François</div>
+          <div class="col w20">Saint-Étienne (42000)</div>
+          <div class="col w10">47467</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/132"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/132/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Riou Bel</div>
+          <div class="col w20">Guillestre (05600)</div>
+          <div class="col w10">589999</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/133"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/133/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma les Aiguilles</div>
+          <div class="col w20">Saint-Jean-d'Arves (73530)</div>
+          <div class="col w10">496119</div>
+          <div class="col w20">22/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/134"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/134/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma L'éterlou</div>
+          <div class="col w20">Peisey-Vallandry (73210)</div>
+          <div class="col w10">265028</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/135"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/135/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma</div>
+          <div class="col w20">Valmeinier (73450)</div>
+          <div class="col w10">4899104</div>
+          <div class="col w20">03/04/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/136"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/136/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Foyer</div>
+          <div class="col w20">Besse-et-Saint-Anastaise (63610)</div>
+          <div class="col w10">4699742</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/137"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/137/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma</div>
+          <div class="col w20">La Clusaz (74220)</div>
+          <div class="col w10">189736</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/138"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/138/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Bourguet</div>
+          <div class="col w20">Forcalquier (04300)</div>
+          <div class="col w10">2799867</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/139"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/139/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné Toiles</div>
+          <div class="col w20">Digne-les-Bains (04000)</div>
+          <div class="col w10">753147</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/140"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/140/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma de Plein Air</div>
+          <div class="col w20">Villefranche-sur-Mer (06230)</div>
+          <div class="col w10">768350</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/141"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/141/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Pagnol</div>
+          <div class="col w20">Sainte-Maxime (83120)</div>
+          <div class="col w10">4691780</div>
+          <div class="col w20">04/06/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/142"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/142/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">L'Ecran Bleu</div>
+          <div class="col w20">Cavalaire-sur-Mer (83240)</div>
+          <div class="col w10">823779</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/143"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/143/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Raimu</div>
+          <div class="col w20">Cogolin (83310)</div>
+          <div class="col w10">2803292</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/144"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/144/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Chantelouve</div>
+          <div class="col w20">Val-Cenis (73500)</div>
+          <div class="col w10">818144</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/145"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/145/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné capitole</div>
+          <div class="col w20">Clermont-Ferrand (63000)</div>
+          <div class="col w10">4777860</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/146"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/146/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Salle de cinéma du centre culturel</div>
+          <div class="col w20">Lamastre (07270)</div>
+          <div class="col w10">5080646</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/147"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/147/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma "L'eau vive"</div>
+          <div class="col w20">L'Argentière-la-Bessée (05120)</div>
+          <div class="col w10">637679</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/148"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/148/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Imagin' Cinémas</div>
+          <div class="col w20">Gaillac (81600)</div>
+          <div class="col w10">4649255</div>
+          <div class="col w20">01/03/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/149"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/149/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">CGR Les Cordeliers</div>
+          <div class="col w20">Albi (81000)</div>
+          <div class="col w10">2993337</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/150"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/150/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Clap'Ciné Carmaux</div>
+          <div class="col w20">Carmaux (81400)</div>
+          <div class="col w10">805960</div>
+          <div class="col w20">18/12/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/151"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/151/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma "Espace des Nouveautés"</div>
+          <div class="col w20">Lavaur (81500)</div>
+          <div class="col w10">4760828</div>
+          <div class="col w20">21/02/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/152"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/152/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma l'Atmosphère</div>
+          <div class="col w20">Saint-Genix-sur-Guiers (73240)</div>
+          <div class="col w10">5128721</div>
+          <div class="col w20">24/02/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/153"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/153/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Poom</div>
+          <div class="col w20">Orcières (05170)</div>
+          <div class="col w10">274002</div>
+          <div class="col w20">20/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/154"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/154/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Arcadia</div>
+          <div class="col w20">Riom (63200)</div>
+          <div class="col w10">5126461</div>
+          <div class="col w20">07/01/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/155"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/155/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Arlequin</div>
+          <div class="col w20">Nyons (26110)</div>
+          <div class="col w10">117756</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/156"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/156/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Reg'Art</div>
+          <div class="col w20">Buis-les-Baronnies (26170)</div>
+          <div class="col w10">4892431</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/157"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/157/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma le Rhodo</div>
+          <div class="col w20">Champagny-en-Vanoise (73350)</div>
+          <div class="col w10">202776</div>
+          <div class="col w20">23/08/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/158"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/158/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Ciné Lumière</div>
+          <div class="col w20">Romans-sur-Isère (26100)</div>
+          <div class="col w10">117333</div>
+          <div class="col w20">07/11/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/159"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/159/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné Planète</div>
+          <div class="col w20">Romans-sur-Isère (26100)</div>
+          <div class="col w10">95273</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/160"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/160/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Vertigo</div>
+          <div class="col w20">Graulhet (81300)</div>
+          <div class="col w10">4648948</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/161"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/161/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Théâtre Rex</div>
+          <div class="col w20">Valréas (84600)</div>
+          <div class="col w10">5098925</div>
+          <div class="col w20">21/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/162"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/162/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Ciné Feurs</div>
+          <div class="col w20">Feurs (42110)</div>
+          <div class="col w10">128053</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/163"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/163/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Espace Lumière</div>
+          <div class="col w20">Balbigny (42510)</div>
+          <div class="col w10">141200</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/164"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/164/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Beauséjour</div>
+          <div class="col w20">Panissières (42360)</div>
+          <div class="col w10">179955</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/165"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/165/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma les Halles</div>
+          <div class="col w20">Charlieu (42190)</div>
+          <div class="col w10">4610998</div>
+          <div class="col w20">15/04/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/166"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/166/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Salle de cinéma Jean Giono</div>
+          <div class="col w20">Clelles (38930)</div>
+          <div class="col w10">733337</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/167"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/167/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cosmo Cinémas</div>
+          <div class="col w20">Briançon (05100)</div>
+          <div class="col w10">5213764</div>
+          <div class="col w20">10/03/2020</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/168"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/168/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Labor</div>
+          <div class="col w20">Dieulefit (26220)</div>
+          <div class="col w10">109162</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/169"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/169/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma L'entract</div>
+          <div class="col w20">Boën-sur-Lignon (42130)</div>
+          <div class="col w10">39840</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/170"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/170/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le Lido</div>
+          <div class="col w20">Saint-Raphaël (83700)</div>
+          <div class="col w10">5211478</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/171"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/171/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma de Porto-Vecchio</div>
+          <div class="col w20">Porto-Vecchio (2A247)</div>
+          <div class="col w10">5389580</div>
+          <div class="col w20">16/12/2019</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/172"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/172/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Les Augustins</div>
+          <div class="col w20">Montluel (01120)</div>
+          <div class="col w10">5362995</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/173"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/173/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma le Grand Palace</div>
+          <div class="col w20">Saumur (49400)</div>
+          <div class="col w10">5366605</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/174"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/174/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma " Les Lumières de la ville"</div>
+          <div class="col w20">Rumilly (74150)</div>
+          <div class="col w10">4691282</div>
+          <div class="col w20">12/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/175"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/175/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma ABC</div>
+          <div class="col w20">Sanary-sur-Mer (83110)</div>
+          <div class="col w10">4758872</div>
+          <div class="col w20">27/01/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/176"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/176/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma des Deux Alpes</div>
+          <div class="col w20">Les Deux Alpes (38860)</div>
+          <div class="col w10">23557</div>
+          <div class="col w20">26/06/2020</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/177"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/177/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Cezanne</div>
+          <div class="col w20">Aix-en-Provence (13090)</div>
+          <div class="col w10">5540611</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/178"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/178/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Le Studio</div>
+          <div class="col w20">Aubervilliers (93300)</div>
+          <div class="col w10">699584</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/179"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/179/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma de l'aiguille</div>
+          <div class="col w20">La Foux d’Allos (04260)</div>
+          <div class="col w10">784581</div>
+          <div class="col w20">14/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/180"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/180/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Complexe Galaxy</div>
+          <div class="col w20">Lecci (2A139)</div>
+          <div class="col w10">5507138</div>
+          <div class="col w20">11/07/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/181"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/181/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Fellini</div>
+          <div class="col w20">Villefontaine (38090)</div>
+          <div class="col w10">115971</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/182"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/182/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Kinépolis</div>
+          <div class="col w20">Bourgoin-Jallieu (38300)</div>
+          <div class="col w10">4664429</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/183"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/183/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Meliès</div>
+          <div class="col w20">Nemours (77140)</div>
+          <div class="col w10">726568</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/184"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/184/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Grand Bleu</div>
+          <div class="col w20">Le Lavandou (83980)</div>
+          <div class="col w10">5681211</div>
+          <div class="col w20">03/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/185"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/185/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Théâtre de verdure</div>
+          <div class="col w20">Le Lavandou (83980)</div>
+          <div class="col w10">813760</div>
+          <div class="col w20">28/06/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/186"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/186/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">CGR Cinéma Moulins</div>
+          <div class="col w20">Moulins (03000)</div>
+          <div class="col w10">3947480</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/187"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/187/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Familia</div>
+          <div class="col w20">Jonzac (17500)</div>
+          <div class="col w10">5684518</div>
+          <div class="col w20">17/09/2021</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/188"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/188/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma le club</div>
+          <div class="col w20">Barbezieux-Saint-Hilaire (16300)</div>
+          <div class="col w10">5758035</div>
+          <div class="col w20">17/09/2021</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/189"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/189/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Montmorélien</div>
+          <div class="col w20">Montmoreau-Saint-Cybard (16190)</div>
+          <div class="col w10">5758036</div>
+          <div class="col w20">14/09/2021</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/190"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/190/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Eden</div>
+          <div class="col w20">Saint-Jean-d'Angély (17400)</div>
+          <div class="col w10">5695735</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/191"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/191/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">• Ré Domaine Culturel La Maline - Spectacles et cinéma</div>
+          <div class="col w20">La Couarde-sur-Mer (17670)</div>
+          <div class="col w10">5870072</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/192"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/192/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">CGR Les ambiances</div>
+          <div class="col w20">Clermont-Ferrand (63000)</div>
+          <div class="col w10">4777864</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/193"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/193/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">L'Ecran</div>
+          <div class="col w20">Saint-Denis (93200)</div>
+          <div class="col w10">699620</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/194"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/194/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Gaumont Stade de France</div>
+          <div class="col w20">Saint-Denis (93200)</div>
+          <div class="col w10">699081</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/195"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/195/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Méga CGR</div>
+          <div class="col w20">Épinay-sur-Seine (93800)</div>
+          <div class="col w10">700956</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/196"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/196/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">L'Étoile</div>
+          <div class="col w20">La Courneuve (93120)</div>
+          <div class="col w10">699663</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/197"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/197/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Commune Image</div>
+          <div class="col w20">Saint-Ouen (93400)</div>
+          <div class="col w10">703913</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/198"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/198/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Espace 1789</div>
+          <div class="col w20">Saint-Ouen (93400)</div>
+          <div class="col w10">703871</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/199"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/199/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Ciné dôme</div>
+          <div class="col w20">Aubière (63170)</div>
+          <div class="col w10">4777866</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/200"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/200/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma itinérant" Ecran mobile" en Vercors-Drôme</div>
+          <div class="col w20">Saint-Laurent-en-Royans (26190)</div>
+          <div class="col w10">5194240</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/201"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/201/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma Le Silvérado</div>
+          <div class="col w20">Marthon (16380)</div>
+          <div class="col w10">5754290</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/202"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/202/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Le Forum</div>
+          <div class="col w20">Orange (84100)</div>
+          <div class="col w10">693607</div>
+          <div class="col w20">07/07/2022</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/203"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/203/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma itinérant" Ecran mobile" en Vercors-Drôme</div>
+          <div class="col w20">Saint-Laurent-en-Royans (26190)</div>
+          <div class="col w10">5194240</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/204"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/204/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Kinepolis</div>
+          <div class="col w20">Nîmes (30000)</div>
+          <div class="col w10">6186638</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/205"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/205/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs greybis">
+          <div class="col">Cinéma le Palace</div>
+          <div class="col w20">Le Vigan (30120)</div>
+          <div class="col w10">6145220</div>
+          <div class="col w20"></div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/206"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/206/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+        <div class="row txtcenter big pts pbs grey">
+          <div class="col">Cinéma Pathé Aéroville</div>
+          <div class="col w20">Roissy-en-France (95700)</div>
+          <div class="col w10">5548872</div>
+          <div class="col w20">15/02/2023</div>
+          <div class="col w100p">
+            <a class="raw" href="/movie_theaters/207"><i class="fa fa-search-plus"></i></a>&nbsp;
+            <a class="raw" href="/movie_theaters/207/edit"><i class="fa fa-edit"></i></a>
+          </div>
+        </div>
+
+</div>
