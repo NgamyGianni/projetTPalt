@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -28,6 +29,17 @@ public class InitController{
         System.out.println("add User");
         repository.save(user);
         return "Added Client with id : " + user.getId();
+    }
+
+    @PostMapping("/loginUser")
+    public boolean Login(@RequestBody Client user) {
+        System.out.println("Try Find mail");
+        Client u = repository.findUserByMail(user.getMail());
+        System.out.println("Find mail");
+        if (u.getPassword().equals(user.getPassword())){
+            return true;
+        }
+        return false;
     }
 
     @DeleteMapping("/delete/{id}")
