@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Navbar, Button } from "@nextui-org/react";
+import { useHref } from 'react-router-dom';
 
 const Header = () => {
-  const [choice, setChoice] = useState(undefined);
   const [state, setState] = useState({
     "isConnected" : false
   })
@@ -10,10 +10,7 @@ const Header = () => {
   return (
     <Navbar isBordered variant={"floating"}>
         <Navbar.Content hideIn="xs">
-          <Navbar.Link isActive={choice==0} href="#" onClick={() => setChoice(0)}>Features</Navbar.Link>
-          <Navbar.Link isActive={choice==1} href="#" onClick={() => setChoice(1)}>Customers</Navbar.Link>
-          <Navbar.Link isActive={choice==2} href="#" onClick={() => setChoice(2)}>Pricing</Navbar.Link>
-          <Navbar.Link isActive={choice==3} href="#" onClick={() => setChoice(3)}>Company</Navbar.Link>
+          <Navbar.Link href="/" >Home</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
           {
