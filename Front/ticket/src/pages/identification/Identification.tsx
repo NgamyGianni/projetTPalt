@@ -7,7 +7,7 @@ function Identification() {
   return (
     <div className='identification'>
       <div className='title'>Authentification</div>
-      <form action="" method='post'>
+      <form action="http://localhost:8080/init/loginUser" method='post'>
         <div>
           <label htmlFor="mail"> Mail </label>
           <input type="email" onChange={e=>setUserMail(e.target.value)} value={userMail}/>
