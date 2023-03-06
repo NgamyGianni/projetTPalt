@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: aqua;
+    
+    /* align-content: center; */
+    bottom: 0px;
+    position:absolute;
+    margin-top: 100px;
+    
+}
+.description-footer{
+    width:300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.description-footer .links{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* margin: 0 auto; */
+}
+.links Link{
+    display:block;
+}
+.footer .footer-right .link {
+    color: black;
+}
+.footer .footer-right .link{
+    color:black;
+}

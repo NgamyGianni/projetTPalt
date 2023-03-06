@@ -38,6 +38,15 @@ const Cinema = () =>{
             <div className="display-cinema-places">
                 {CinemaDisplay}
             </div>
+            {/* <div className="display-cinema-places">
+                {CinemaDisplay}
+            </div>
+            <div className="display-cinema-places">
+                {CinemaDisplay}
+            </div>
+            <div className="display-cinema-places">
+                {CinemaDisplay}
+            </div> */}
         </div>
         
     )
