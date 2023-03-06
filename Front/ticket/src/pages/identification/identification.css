@@ -1,28 +1,49 @@
 .identification{
-    max-width: 400px;
-    height: auto;
+    max-width: 300px;
+    height: 150px;
     /* background-color:aqua; */
     /* display:flex; */
     margin:auto;
     color:white;
     background-color: rgb(20, 199, 175);
+    border-radius: 5px;
+    position: relative;
+    margin-top: 100px;
 }
-.identification div{
-    text-align: center;
-    height: 50px;
-    font-weight:bold;
+
+div.title{
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 .identification form {
     display: block;
-    background-color: rgb(5, 97, 97);
+    /*background-color: rgb(5, 97, 97);*/
     
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+form div label{
+    align-self: center;
+    font-size: 15px;
+    text-align: center;
+    padding-left:2px; 
 }
 form input{
     background-color: rgb(5, 97, 97);
-    width: 100px;
-
+    width: 70%;
+    border: 2px solid rgb(77, 178, 182);
+    border-radius: 5px;
+}
+input.sumbit{
+    margin-top:20px;
+    width: auto;
+    position: absolute;
+    right: 0;
 }
 input:hover{
     border:1px solid red;
