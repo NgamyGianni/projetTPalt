@@ -1,13 +1,39 @@
 import React, { useState } from 'react'
 import './identification.css';
 function Identification() {
-  
   const [userMail,setUserMail] = useState("");
   const [userPassword,setuserPassword] = useState("")
+
+  let handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("https://httpbin.org/post", {
+        method: "POST",
+        body: JSON.stringify({
+          mail: userMail,
+          password: userPassword
+        }),
+      });
+      let resJson = await res.json();
+      if (res.status === 200) {
+        setUserMail("");
+        setuserPassword("");
+      } else {
+        console.log("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+  
   return (
     <div className='identification'>
       <div className='title'>Authentification</div>
+<<<<<<< HEAD
       <form action="http://localhost:8080/init/loginUser" method='post'>
+=======
+      <form  onSubmit={handleSubmit}>
+>>>>>>> 4629bbd5344a0bab77dc01433d2f66b084e98556
         <div>
           <label htmlFor="mail"> Mail </label>
           <input type="email" onChange={e=>setUserMail(e.target.value)} value={userMail}/>
