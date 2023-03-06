@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 
 @SpringBootApplication
-@EnableWebSecurity
+//@EnableWebSecurity
 public class TpaltApplication {
 
 	public static void main(String[] args) {
