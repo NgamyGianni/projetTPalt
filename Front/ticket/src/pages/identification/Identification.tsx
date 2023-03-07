@@ -7,20 +7,23 @@ function Identification() {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://httpbin.org/post", {
+      let res = await fetch("http://localhost:8080/init/loginUser", {
         method: "POST",
-        body: JSON.stringify({
-          mail: userMail,
-          password: userPassword
-        }),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+      },
+       body: JSON.stringify({
+        "mail": userMail,
+        "password": userPassword
+      }),
+      //   body: JSON.stringify({
+      //     "mail": "mo@mo",
+      //     "password": "mo"
+      // }),
       });
       let resJson = await res.json();
-      if (res.status === 200) {
-        setUserMail("");
-        setuserPassword("");
-      } else {
-        console.log("Some error occured");
-      }
+      console.log(resJson);
     } catch (err) {
       console.log(err);
     }
@@ -29,11 +32,7 @@ function Identification() {
   return (
     <div className='identification'>
       <div className='title'>Authentification</div>
-<<<<<<< HEAD
-      <form action="http://localhost:8080/init/loginUser" method='post'>
-=======
       <form  onSubmit={handleSubmit}>
->>>>>>> 4629bbd5344a0bab77dc01433d2f66b084e98556
         <div>
           <label htmlFor="mail"> Mail </label>
           <input type="email" onChange={e=>setUserMail(e.target.value)} value={userMail}/>
