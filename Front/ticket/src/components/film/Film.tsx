@@ -1,5 +1,5 @@
 import { Film } from "../../Interfaces/film";
-import { Card, Text } from "@nextui-org/react";
+import { Card, Text, Container, Input } from "@nextui-org/react";
 
 const FilmCard = (props : any) => {
     const film : Film = props.film;
@@ -19,8 +19,21 @@ const FilmCard = (props : any) => {
             <Card.Footer>
                 <Text>{film.description}</Text>
             </Card.Footer>
+            <Card.Footer>
+                    <Text>Buy Tickets</Text>
+                    <Input underlined type="number"/>
+            </Card.Footer>
         </Card>
     )
 };
 
-export default FilmCard;
+export const FilmCardContainer = (props : any) => {
+    const films = props.films;
+
+    return (
+        <Container>
+        { films.map((film) =>
+            <FilmCard film={film}/>) }
+        </Container>
+    )
+}
