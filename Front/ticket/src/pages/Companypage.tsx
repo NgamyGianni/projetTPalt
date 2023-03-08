@@ -1,8 +1,9 @@
-import FilmCard from "../components/film/Film";
-import { CineCardContainer } from "../components/cinema/CineCard";
+import { FilmCardContainer } from "../components/film/Film";
+import { CineCard } from "../components/cinema/CineCard";
 import { Film } from "../Interfaces/film";
 import { Cine } from "../Interfaces/cine";
 import { Grid } from "@nextui-org/react";
+import { cinemaList } from '../components/cinema/Cinemalist';
 
 const Companypage = () => {
     const film : Film = {
@@ -17,10 +18,10 @@ const Companypage = () => {
     return (
         <Grid.Container gap={2} justify="center">
             <Grid xs={6}>
-                <FilmCard film={film}/>
+                <CineCard cine={cinemaList[0]}/>
             </Grid>
             <Grid xs={6}>
-                <CineCardContainer />
+                <FilmCardContainer films={[film]} />
              </Grid>
         </Grid.Container>
     )
