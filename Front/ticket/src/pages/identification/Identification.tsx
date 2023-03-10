@@ -10,8 +10,8 @@ function Identification() {
       let res = await fetch("https://httpbin.org/post", {
         method: "POST",
         body: JSON.stringify({
-          mail: userMail,
-          password: userPassword
+          "mail": userMail,
+          "password": userPassword
         }),
       });
       let resJson = await res.json();
@@ -38,7 +38,7 @@ function Identification() {
           <label htmlFor="password">Password</label>
           <input type="password" onChange={e=>setuserPassword(e.target.value)} value={userPassword}/>
         </div>
-        <input type="submit" value="submit" className='sumbit'/>
+        <button type='submit'> Submit</button>
       </form>
       {/* <div>the value is </div>
       <div>{userMail}</div> */}
