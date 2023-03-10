@@ -7,14 +7,28 @@ function Identification() {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("https://httpbin.org/post", {
+      let res = await fetch("http://localhost:8080/init/loginUser", {
         method: "POST",
         body: JSON.stringify({
           "mail": userMail,
           "password": userPassword
         }),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+      },
+       body: JSON.stringify({
+        "mail": userMail,
+        "password": userPassword
+      }),
+      //   body: JSON.stringify({
+      //     "mail": "mo@mo",
+      //     "password": "mo"
+      // }),
+
       });
       let resJson = await res.json();
+      console.log(resJson);
       if (res.status === 200) {
         setUserMail("");
         setuserPassword("");
