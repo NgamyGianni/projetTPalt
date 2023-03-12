@@ -11,7 +11,15 @@ export const cinemaList: Cine[] = [
     ,
     {
         name : "Mégarama", 
-        img : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bb/18/48/megarama-montigny-les.jpg?w=1200&h=1200&s=1"}
+        img : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bb/18/48/megarama-montigny-les.jpg?w=1200&h=1200&s=1"
+    }
+    , 
+    {
+        name : "papi", 
+        img : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bb/18/48/megarama-montigny-les.jpg?w=1200&h=1200&s=1"
+    }
+    
+    
 ]
 // export const cinemaList: Cine[] = [
 //     {name : "UGC Ciné", img : "ugcLogo"},

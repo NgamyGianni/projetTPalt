@@ -12,8 +12,7 @@
     "@nextui-org/react": "^1.0.0-beta.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
-    "require": "^2.4.20"
+    "react-router-dom": "^6.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

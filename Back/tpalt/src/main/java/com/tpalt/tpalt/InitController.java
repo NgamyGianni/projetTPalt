@@ -85,6 +85,25 @@ public class InitController{
         return rqBody;
     }
 
+    @GetMapping("/score/{title}")
+    public String getScoreByTitle(@PathVariable String title){
+
+        String scoreUrl = "https://www.omdbapi.com/?t={title}&apikey=6e1c3a16";
+        String uri = scoreUrl.replace("{title}",title);
+
+        RestTemplate rest = new RestTemplate();
+        String rqBody = rest.getForObject(uri,String.class);
+        if(rqBody.indexOf("Error")>0){
+            return "Error";
+        }
+        String test = rqBody.substring(rqBody.indexOf("\"Ratings"));
+        test = test.substring(0,test.indexOf("]"));
+
+        return test;
+    }
+
+
+
 
     @GetMapping("testcode")
     public String getAllCodes() {
