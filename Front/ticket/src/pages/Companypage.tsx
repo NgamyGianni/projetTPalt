@@ -15,28 +15,34 @@ const Companypage = () => {
         ;
     }
 
-    const getFirstFilm = () : Film => {
-        if(cine != null){
-            const f = cine?.["theater_movies"][0];
-
-            return {
-                name : f["title"],
-                img : f["posters"]["large"],
-                description : f["synopsis"],
-                nb_place : 2,
-                available_place : 1,
-                date : ""
-            }
-        }
-        
+    const movieToFilm = (movie : any) => {
         return {
-            name : "",
-            img : "",
-            description : "",
+            name : movie["title"],
+            img : movie["posters"]["large"],
+            description : movie["synopsis"],
             nb_place : 2,
             available_place : 1,
             date : ""
-        };
+        }
+    }
+
+    const getFilms = () : Film => {
+        if(cine != null){
+            const f = cine["theater_movies"];
+
+            return f.map(
+                (e) => movieToFilm(e)
+            )
+        }
+        
+        return [{
+            name : "",
+            img : "",
+            description : "",
+            nb_place : 0,
+            available_place : 0,
+            date : ""
+        }];
     }
 
     const [cine, setCine] = useState(null);
@@ -51,9 +57,9 @@ const Companypage = () => {
                 <CineCard cine={cinemaList[0]}/>
             </Grid>
             <Grid xs={6}>
-                <FilmCardContainer films={[getFirstFilm()]} />
+                <FilmCardContainer films={getFilms()} />
              </Grid>
-             <Button onClick={(e) => console.log(getFirstFilm())}>cine !</Button>
+             <Button onClick={(e) => console.log(getFilms())}>cine !</Button>
         </Grid.Container>
     )
 };
