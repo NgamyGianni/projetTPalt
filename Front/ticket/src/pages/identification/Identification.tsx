@@ -9,6 +9,10 @@ function Identification() {
     try {
       let res = await fetch("http://localhost:8080/init/loginUser", {
         method: "POST",
+        body: JSON.stringify({
+          "mail": userMail,
+          "password": userPassword
+        }),
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -21,9 +25,16 @@ function Identification() {
       //     "mail": "mo@mo",
       //     "password": "mo"
       // }),
+
       });
       let resJson = await res.json();
       console.log(resJson);
+      if (res.status === 200) {
+        setUserMail("");
+        setuserPassword("");
+      } else {
+        console.log("Some error occured");
+      }
     } catch (err) {
       console.log(err);
     }
@@ -41,7 +52,7 @@ function Identification() {
           <label htmlFor="password">Password</label>
           <input type="password" onChange={e=>setuserPassword(e.target.value)} value={userPassword}/>
         </div>
-        <input type="submit" value="submit" className='sumbit'/>
+        <button type='submit'> Submit</button>
       </form>
       {/* <div>the value is </div>
       <div>{userMail}</div> */}
