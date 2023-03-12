@@ -7,8 +7,7 @@ function Routers() {
   return (
     <Routes>
         <Route path="/" element={<Homepage />} />
-        
-        <Route path="/film" element={<Companypage />} />
+        <Route path="/cinema/:id" element={<Companypage />} />
         <Route path="/iden" element={<Identification />} />
     </Routes>
   )

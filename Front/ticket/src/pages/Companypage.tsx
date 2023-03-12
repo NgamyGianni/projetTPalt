@@ -5,10 +5,13 @@ import { Cine } from "../Interfaces/cine";
 import { Button, Grid } from "@nextui-org/react";
 import { cinemaList } from '../components/cinema/Cinemalist';
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 const Companypage = () => {
+    const [cine, setCine] = useState(null);
+    const idCine = useParams()["id"]?.toString(); //340507
 
-    const getCine = async (id : string) => {
+    const getCine = async (id : string | undefined) => {
         await fetch("http://localhost:8080/init/seances/"+id)
             .then(response => response.json())
             .then(data => setCine(data))
@@ -26,29 +29,10 @@ const Companypage = () => {
         }
     }
 
-    const getFilms = () : Film => {
-        if(cine != null){
-            const f = cine["theater_movies"];
-
-            return f.map(
-                (e) => movieToFilm(e)
-            )
-        }
-        
-        return [{
-            name : "",
-            img : "",
-            description : "",
-            nb_place : 0,
-            available_place : 0,
-            date : ""
-        }];
-    }
-
-    const [cine, setCine] = useState(null);
+    const getFilms = () : Film => cine !== null ? cine["theater_movies"].map((e) => movieToFilm(e)) : [];
 
     useEffect(() => {
-        getCine("340507");
+        getCine(idCine);
     }, [])
 
     return (
@@ -58,8 +42,7 @@ const Companypage = () => {
             </Grid>
             <Grid xs={6}>
                 <FilmCardContainer films={getFilms()} />
-             </Grid>
-             <Button onClick={(e) => console.log(getFilms())}>cine !</Button>
+            </Grid>
         </Grid.Container>
     )
 };
