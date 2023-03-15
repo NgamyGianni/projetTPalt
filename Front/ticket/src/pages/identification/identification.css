@@ -1,14 +1,12 @@
 .identification{
     max-width: 300px;
-    height: 150px;
-    /* background-color:aqua; */
-    /* display:flex; */
+    height: 250px;
     margin:auto;
     color:white;
     background-color: rgb(20, 199, 175);
     border-radius: 5px;
-    position: relative;
     margin-top: 100px;
+    padding: 0 7px ;
 }
 
 div.title{
@@ -16,11 +14,13 @@ div.title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-align: center;
+    height: 20%;
 }
 .identification form {
     display: block;
-    /*background-color: rgb(5, 97, 97);*/
-    
+    position: relative;
+    width: 100%;
+    height: 80%;
 }
 form div{
     display: flex;
@@ -31,7 +31,6 @@ form div label{
     align-self: center;
     font-size: 15px;
     text-align: center;
-    padding-left:2px; 
 }
 form input{
     background-color: rgb(5, 97, 97);
@@ -39,11 +38,12 @@ form input{
     border: 2px solid rgb(77, 178, 182);
     border-radius: 5px;
 }
-input.sumbit{
-    margin-top:20px;
+button.submit-btn{
     width: auto;
+    margin:auto;
     position: absolute;
     right: 0;
+    bottom: 5px;
 }
 input:hover{
     border:1px solid red;
