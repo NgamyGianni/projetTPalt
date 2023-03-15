@@ -10,7 +10,7 @@ function Register() {
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await fetch("http://localhost:8080/init/loginUser", {
+      let res = await fetch("http://localhost:8080/init/addUser", {
         method: "POST",
         headers: {
           'Accept': 'application/json',
@@ -49,7 +49,7 @@ function Register() {
         </div>
         <div>
           <label htmlFor="lastName"> LastName </label>
-          <input type="email" onChange={e=>setUserLastName(e.target.value)} value={userLastName}/>
+          <input type="text" onChange={e=>setUserLastName(e.target.value)} value={userLastName}/>
         </div>
         <div>
           <label htmlFor="mail"> Mail </label>
