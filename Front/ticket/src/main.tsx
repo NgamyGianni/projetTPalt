@@ -13,8 +13,8 @@ const myDarkTheme = createTheme({
 	theme: {
 		colors: {
 			// brand colors
-			background: "#1d1d1d",
-			text: "#fff"
+			background: "#fff",//#1d1d1d
+			text: "#1d1d1d"
 		},
 		space: {},
 		fonts: {}

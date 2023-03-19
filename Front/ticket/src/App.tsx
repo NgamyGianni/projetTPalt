@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/footer/Footer'
+import { LoginContext } from './components/loginContext'
 import { Container } from "@nextui-org/react"
 import './App.css'
 import Routers from './Routers'
@@ -10,9 +11,11 @@ const App = () => {
 
   return (
     <div>
+      
       <Header/>
       <Routers />
       <Footer />
+      
     </div>
   )
 }
