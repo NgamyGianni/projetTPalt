@@ -1,9 +1,15 @@
 import React, { useState } from 'react'
 import './identification.css';
+import { useLogin } from '../../components/LoginContext';
 function Identification() {
   const [userMail,setUserMail] = useState("");
-  const [userPassword,setuserPassword] = useState("")
-  
+  const [userPassword,setuserPassword] = useState("");
+  const {userConnect, setUserConnect} = useLogin();
+  let handleTest =()=>{
+    if (userMail=="mo@mo" && userPassword=="mo") setUserConnect({"isConnected" : true})
+    console.log(userConnect)
+  }
+  const boundaryBox={height:"170px"}
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -23,6 +29,7 @@ function Identification() {
       if (res.status === 200) {
         setUserMail("");
         setuserPassword("");
+        setUserConnect({"isConnected" : true})
       } else {
         console.log("Some error occured");
       }
@@ -32,10 +39,9 @@ function Identification() {
   };
   
   return (
-    <div className='identification'>
-      <div className='title'>Create an account</div>
-      {/* {alert("maman")} */}
-      <form  onSubmit={handleSubmit}>
+    <div className='identification' style={boundaryBox}>
+      <div className='title'>Authentification</div>
+      <form  onSubmit={handleSubmit} >
         <div>
           <label htmlFor="mail"> Mail </label>
           <input type="email" onChange={e=>setUserMail(e.target.value)} value={userMail}/>
