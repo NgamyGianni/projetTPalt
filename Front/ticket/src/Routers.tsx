@@ -4,6 +4,8 @@ import Companypage from './pages/Companypage'
 import Homepage from './pages/Homepage'
 import Identification from './pages/identification/Identification'
 import Register from './pages/identification/Register'
+import Reservation from './pages/identification/Reservation'
+
 import { useLogin } from './components/LoginContext'
 import { Navigate } from 'react-router-dom'
 function Routers() {
@@ -11,19 +13,15 @@ function Routers() {
   return (
     <Routes>
         <Route path="/" element={<Homepage />} />
-<<<<<<< HEAD
-        <Route path="/cinema/:id" element={<Companypage />} />
-        <Route path="/iden" element={<Identification />} />
-        <Route path="/register" element={<Register />} />
-=======
-        
         <Route path="/cinema/:id" element={<Companypage />} />
         <Route path="/authentification" 
               element={userConnect.isConnected ?<Navigate to="/"/>:<Identification />} 
                 />
         <Route path="/register" 
             element={userConnect.isConnected ?<Navigate to="/"/>:<Register />} />
->>>>>>> homepage
+        <Route path="/reservation" 
+            element={userConnect.isConnected ?< Reservation/>:<Navigate to="/"/>} />
+
     </Routes>
   )
 }
