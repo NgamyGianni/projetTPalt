@@ -28,7 +28,7 @@ const Cinema = () =>{
     })
     const CinemaDisplay = cinemaList.map(elt=>
         <li key={elt.id} className="cinema">
-            <Link to="/" className="link">
+            <Link to={"/cinema/"+elt.id} className="link">
                 <img  src={elt.url} alt={elt.name+" cinéma"} />
                 <div>{elt.name}</div>
             </Link>
