@@ -1,5 +1,5 @@
 import { Film } from "../../Interfaces/film";
-import { Card, Text, Container, Input } from "@nextui-org/react";
+import { Card, Text, Container, Input, Button } from "@nextui-org/react";
 
 const FilmCard = (props : any) => {
     const film : Film = props.film;
@@ -20,7 +20,7 @@ const FilmCard = (props : any) => {
                 <Text>{film.description}</Text>
             </Card.Footer>
             <Card.Footer>
-                    <Text>Buy Tickets</Text>
+                    <Button>Buy Tickets</Button>
                     <Input underlined type="number"/>
             </Card.Footer>
         </Card>

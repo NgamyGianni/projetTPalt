@@ -9,16 +9,17 @@ import { useParams } from "react-router-dom";
 
 const Companypage = () => {
     const [cine, setCine] = useState(null);
+    const [films, setFilms] = useState(undefined);
     const idCine = useParams()["id"]?.toString(); //340507
 
-    const getCine = async (id : string | undefined) => {
-        await fetch("http://localhost:8080/init/seances/"+id)
+    const getCine = (id : string | undefined) => {
+        fetch("http://localhost:8080/init/seances/"+id)
             .then(response => response.json())
             .then(data => setCine(data))
         ;
     }
 
-    const movieToFilm = (movie : any) => {
+    const movieToFilm = (movie : any) : Film => {
         return {
             name : movie["title"],
             img : movie["posters"]["large"],
@@ -29,7 +30,7 @@ const Companypage = () => {
         }
     }
 
-    const getFilms = () : Film => cine !== null ? cine["theater_movies"].map((e) => movieToFilm(e)) : [];
+    const getFilms = (n : number) : Film => cine !== null ? cine["theater_movies"].slice(0, n).map((e) => movieToFilm(e)) : [];
 
     useEffect(() => {
         getCine(idCine);
@@ -41,7 +42,7 @@ const Companypage = () => {
                 <CineCard cine={cinemaList[0]}/>
             </Grid>
             <Grid xs={6}>
-                <FilmCardContainer films={getFilms()} />
+                <FilmCardContainer films={getFilms(5)} />
             </Grid>
         </Grid.Container>
     )
