@@ -1,4 +1,7 @@
 export interface Cine{
-    name: string;
-    img : string;
+    "id": number,
+    "name": string,
+    "lieu": string,
+    "codePostal": string,
+    "url":string
 }

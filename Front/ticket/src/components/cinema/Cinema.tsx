@@ -1,6 +1,7 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
-import { cinemaList } from "./Cinemalist";
+import { Cine } from "../../Interfaces/cine"
+//import { cinemaList } from "./Cinemalist";
 import './cinema.css'
 // import pic from "../../assets/react.svg"
 // import ugcLogo from "../../assets/UGC.png"
@@ -19,20 +20,21 @@ import './cinema.css'
 // ]
 
 const Cinema = () =>{
+    const [cinemaList, setCinemaList]=useState<Cine[]>([]);
+    useEffect(()=>{
+        fetch("http://localhost:8080/init/findAllCinoche")
+        .then(res=>res.json())
+        .then(resJson=>setCinemaList(resJson))
+    })
     const CinemaDisplay = cinemaList.map(elt=>
-        <li key={elt.name} className="cinema">
+        <li key={elt.id} className="cinema">
             <Link to="/" className="link">
-                <img  src={elt.img} alt={elt.name+" cinéma"} />
+                <img  src={elt.url} alt={elt.name+" cinéma"} />
                 <div>{elt.name}</div>
             </Link>
         </li>
         );
     return(
-        // <button /*onClick={}*/>
-            
-            
-        //     <div>Les Cinémas</div>
-        // </button>
         <div>
             <div> Nos différents parténarits Cinémas</div>
             <div className="display-cinema-places">
