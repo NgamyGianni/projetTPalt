@@ -1,12 +1,20 @@
 import React from 'react'
 import { useState } from 'react';
+import { useLogin } from '../../components/LoginContext';
 
 function Register() {
-    const [userFirstName,setUserFirstName] = useState("");
-  const [userLastName,setUserLastName] = useState("")
- const [userMail,setUserMail] = useState("");
-  const [userPassword,setuserPassword] = useState("")
-  
+  const [userFirstName,setUserFirstName] = useState("");
+  const [userLastName,setUserLastName] = useState("");
+  const [userMail,setUserMail] = useState("");
+  const [userPassword,setuserPassword] = useState("");
+  //
+  const {userConnect,setUserConnect} = useLogin();
+  // let handleTest =()=>{
+  //   if (userMail=="mo@mo" && userPassword=="mo" 
+  //       && userFirstName=="mo" && userLastName=="mo") 
+  //   setUserConnect({"isConnected" : true})
+  //   console.log(userConnect)
+  // }
   let handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -30,6 +38,7 @@ function Register() {
         setUserLastName("")
         setUserMail("");
         setuserPassword("");
+        setUserConnect({"isConnected" : true})
       } else {
         console.log("Some error occured");
       }
@@ -41,7 +50,6 @@ function Register() {
   return (
     <div className='identification'>
       <div className='title'>Create an account</div>
-      {/* {alert("maman")} */}
       <form  onSubmit={handleSubmit}>
         <div>
           <label htmlFor="firstName"> FirstName </label>
