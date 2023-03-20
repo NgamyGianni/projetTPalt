@@ -7,7 +7,9 @@ const FilmCard = (props : any) => {
     return (
         <Card variant="bordered" css={{ mw: "400px" }}>
             <Card.Header>
-                <Text>{ film.name} </Text>
+                <Text css={{
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",
+        }}>{ film.name} </Text>
             </Card.Header>
             <Card.Image
                 src={film.img}
@@ -17,7 +19,9 @@ const FilmCard = (props : any) => {
                 alt={film.name}
               />
             <Card.Footer>
-                <Text>{film.description}</Text>
+                <Text css={{
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",
+        }}>{film.description}</Text>
             </Card.Footer>
             <Card.Footer>
                     <Button>Buy Tickets</Button>

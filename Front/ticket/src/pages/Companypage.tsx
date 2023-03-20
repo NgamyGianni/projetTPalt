@@ -22,11 +22,18 @@ const Companypage = () => {
     const movieToFilm = (movie : any) : Film => {
         return {
             name : movie["title"],
-            img : movie["posters"]["large"],
+            img : "https://cinema.apidae-tourisme.com"+movie["posters"]["medium"],
             description : movie["synopsis"],
             nb_place : 2,
             available_place : 1,
             date : ""
+        }
+    }
+
+    const toCine = (cine : any) : Cine => {
+        return {
+            name : cine["theater_name"],
+            img : "https://source.unsplash.com/random/?movie theater"
         }
     }
 
@@ -39,7 +46,11 @@ const Companypage = () => {
     return (
         <Grid.Container gap={2} justify="center">
             <Grid xs={6}>
-                <CineCard cine={cinemaList[0]}/>
+                { cine ? 
+                    <CineCard cine={toCine(cine)}/>
+                    :
+                    ""
+                }
             </Grid>
             <Grid xs={6}>
                 <FilmCardContainer films={getFilms(5)} />

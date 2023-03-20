@@ -7,7 +7,9 @@ export const CineCard = (props : any) => {
     return (
         <Card variant="bordered" css={{ mw: "400px" }}>
                 <Card.Header>
-                    <Text>{cine.name}</Text>
+                    <Text css={{
+          textGradient: "45deg, $yellow600 -20%, $red600 100%",
+        }}>{cine.name}</Text>
                 </Card.Header>
                 <Card.Image
                     src={cine.img}
