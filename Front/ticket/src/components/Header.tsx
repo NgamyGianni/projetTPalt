@@ -21,6 +21,10 @@ const Header = () => {
     //console.log(stateLogin);
     navigate("/register")
   }
+  const handleReservation=()=>{
+    //setStateFocus({login:true,signUp:false});
+    navigate("/reservation")
+  }
   const handleLogOut=()=>{
     setUserConnect({"isConnected" : false})
     setStateFocus({login:false,signUp:false})
@@ -66,7 +70,7 @@ const Header = () => {
                 </Navbar.Link>
                 <Navbar.Link color="inherit" >
                   <Button auto flat
-                      onClick={handleSignUp}
+                      onClick={handleSignUp} 
                       style={stateFocus.signUp&&!userConnect.isConnected?borderButton:{}}>
                     Sign Up
                   </Button>
@@ -79,7 +83,15 @@ const Header = () => {
                   Log Out
                 </Button>
               </Navbar.Item>
+              <Navbar.Link color="inherit" >
+                  <Button auto flat
+                      onClick={handleReservation}
+                      style={stateFocus.signUp&&!userConnect.isConnected?borderButton:{}}>
+                    reservation
+                  </Button>
+              </Navbar.Link>
             </Navbar.Content>
+            
           }
           <Navbar.Item>
             <Button color="default" onClick={handlePanier}>Panier</Button>
