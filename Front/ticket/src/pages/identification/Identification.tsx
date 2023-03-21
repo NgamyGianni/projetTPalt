@@ -41,7 +41,7 @@ function Identification() {
   return (
     <div className='identification' style={boundaryBox}>
       <div className='title'>Authentification</div>
-      <form  onSubmit={handleSubmit} >
+      <form  onSubmit={handleTest} >
         <div>
           <label htmlFor="mail"> Mail </label>
           <input type="email" onChange={e=>setUserMail(e.target.value)} value={userMail}/>
