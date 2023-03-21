@@ -9,21 +9,14 @@ import { Navigate } from 'react-router-dom'
 function Routers() {
   const {userConnect}=useLogin();
   return (
-    <Routes>
+<Routes>
         <Route path="/" element={<Homepage />} />
-<<<<<<< HEAD
         <Route path="/cinema/:id" element={<Companypage />} />
-        <Route path="/iden" element={<Identification />} />
-        <Route path="/register" element={<Register />} />
-=======
-        
-        <Route path="/cinema/:id" element={<Companypage />} />
-        <Route path="/authentification" 
-              element={userConnect.isConnected ?<Navigate to="/"/>:<Identification />} 
+        <Route path="/authentification"
+              element={userConnect.isConnected ?<Navigate to="/"/>:<Identification />}
                 />
-        <Route path="/register" 
+        <Route path="/register"
             element={userConnect.isConnected ?<Navigate to="/"/>:<Register />} />
->>>>>>> homepage
     </Routes>
   )
 }

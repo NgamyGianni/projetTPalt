@@ -21,7 +21,6 @@ public class UserService {
 
     public boolean register(Client user) {
         System.out.println("Try add User");
-        System.out.println("Try Find mail");
         Client u = repository.findUserByMail(user.getMail());
         if (u!=null){
             return false;
@@ -29,7 +28,7 @@ public class UserService {
 
         //generate sequence
         user.setId(service.getSequenceNumber(Client.SEQUENCE_NAME));
-        System.out.println("SEQUENCE_NAME >>> " + Client.SEQUENCE_NAME);
+//        System.out.println("SEQUENCE_NAME >>> " + Client.SEQUENCE_NAME);
 
 
         user.setPassword(passwordEncoder.encode(user.getPassword()));
@@ -37,16 +36,19 @@ public class UserService {
         return true;
     }
 
-    public boolean login(Client user) {
+    public String login(Client user) {
         System.out.println("Try Find mail");
 
         Client u = repository.findUserByMail(user.getMail());
         if (u==null){
-            return false;
+            return "error";
         }
 
-        Client uBis = user;
-        return passwordEncoder.matches(user.getPassword(),u.getPassword());
+        if (passwordEncoder.matches(user.getPassword(),u.getPassword())){
+            System.out.println("good");
+            return String.valueOf(u.getId());
+        }
+        return "error";
     }
 
     public boolean deleteById(int id) {

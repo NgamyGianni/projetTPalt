@@ -1,22 +1,23 @@
 package com.tpalt.tpalt;
 
-import com.tpalt.tpalt.model.Cinema;
-import com.tpalt.tpalt.model.Client;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tpalt.tpalt.model.*;
 import com.tpalt.tpalt.repository.CienamRepository;
+import com.tpalt.tpalt.repository.ReservationRepository;
 import com.tpalt.tpalt.repository.UserRepository;
+import com.tpalt.tpalt.service.CinemaCodeService;
+import com.tpalt.tpalt.service.ReservationService;
 import com.tpalt.tpalt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.Scanner;
 
 @CrossOrigin
 @RestController
@@ -35,6 +36,16 @@ public class InitController{
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private CinemaCodeService cinemaCode;
+
+    @Autowired
+    private ReservationService reservationService;
+
+    @Autowired
+    private ReservationRepository reservationRepository;
+
+
     @PostMapping("/addUser")
     public boolean registerUser(@RequestBody Client user) {
         System.out.println("add User");
@@ -43,7 +54,7 @@ public class InitController{
 
 
     @PostMapping("/loginUser")
-    public boolean loginUser(@RequestBody Client user) {
+    public String loginUser(@RequestBody Client user) {
         System.out.println("Login");
         return userService.login(user);
     }
@@ -103,81 +114,57 @@ public class InitController{
     }
 
 
-
-
-    @GetMapping("testcode")
-    public String getAllCodes() {
-        String result = "";
-        try {
-            //File myObj = new File(getClass().getResource("cinemaListTest.txt").getFile());
-
-            File file = new ClassPathResource("cinemaListTest.txt").getFile();
-            String name = "";
-            String lieux = "";
-            String id = "";
-            boolean add = false;
-            int incrementation = 0;
-            boolean new_val = false;
-            Scanner myReader = new Scanner(file);
-            while (myReader.hasNextLine()) {
-
-                String data = myReader.nextLine();
-                if (data.contains("row")) {
-                    new_val = true;
-                    continue;
-                }
-                if (new_val) {
-                    add = false;
-                    String value = data.substring(data.indexOf("\">") +2);
-                    value = value.substring(0, value.indexOf("<"));
-                    switch (incrementation) {
-                        case 0:
-                            name = value;
-                            break;
-                        case 1:
-                            lieux = value;
-                            break;
-                        case 2:
-                            id = value;
-                            new_val = false;
-                            add = true;
-                            break;
-
-
-                    }
-                    incrementation += 1;
-
-                }
-                if (add) {
-                    StringBuilder res = new StringBuilder();
-                    String lieu  = lieux.substring(lieux.indexOf("("));
-                    String codePostal = lieux.substring(lieux.indexOf("(")+1,lieux.indexOf(')'));
-                    String url = "https://source.unsplash.com/random/?"+name;
-                    Cinema cine = new Cinema(Integer.parseInt(id),name,lieux,codePostal, url);
-                    cinoche.save(cine);
-                    //String splitValue[] = lieux.split("");
-                    res.append(name).append("\n");
-                    res.append(lieux).append("\n");
-                    res.append(id).append("\n");
-                    res.append("-----------------------------");
-
-                    result += res.toString();
-                    add = false;
-                    incrementation = 0;
-                }
-
-                System.out.println(data);
-            }
-            myReader.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        return result;
+    @GetMapping("getCinemaCode")
+    public String getCinemaCodes() {
+        return cinemaCode.getAllCodes();
     }
 
+    ArrayList<Score> arrayList = new ArrayList<Score>();
+    @PostMapping("testScore")
+    public void testBisScoreCodes(@RequestBody String jsonString) throws JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        Score[] ss = objectMapper.readValue(jsonString, Score[].class);
+
+        System.out.println(ss);
+        System.out.println(Arrays.stream(ss).count());
+    }
+
+    @PostMapping("testBisScore")
+    public void testScoreCodes(@RequestBody String jsonString) throws JsonProcessingException {
+
+//        ObjectMapper objectMapper = new ObjectMapper();
+//        RatingsClass ratingsClass = objectMapper.readValue(jsonString, RatingsClass.class);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        RatingsClass ss = objectMapper.readValue(jsonString, RatingsClass.class);
+
+        System.out.println(ss);
+//        System.out.println(Arrays.stream(ss).count());
+    }
+
+    @PostMapping("/reservation")
+    public boolean addReserve(@RequestBody Reservation reservation) {
+        System.out.println("Try reserve");
+        return reservationService.reserve(reservation);
+    }
+
+    public Optional<Reservation> foudReservation(int id){
+        System.out.println("findReservationById >>> ");
+        return reservationRepository.findById(id);
+    }
+
+    @GetMapping("/findReservationById/{id}")
+    public List<Reservation> findReservationsById(@PathVariable int id) {
+        System.out.println("Try to findReservationById : ");
+        return reservationService.findReservations(id);
+    }
+
+    @PostMapping("/findReservation/")
+    public String findReservation(@RequestBody Reservation reservation) {
+        System.out.println("Try to findReservationById : ");
+//        return reservationService.findSpecificReservation(id,userId);
+        return reservationService.findSpecificReservation(reservation);
+    }
 
 }
 
