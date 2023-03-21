@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './identification.css';
-import { useLogin } from '../../components/LoginContext';
+import { useGlobal } from '../../components/Context';
 function Identification() {
   const [userMail,setUserMail] = useState("");
   const [userPassword,setuserPassword] = useState("");
-  const {userConnect, setUserConnect} = useLogin();
+  const {userConnect, setUserConnect} = useGlobal();
   let handleTest =()=>{
     if (userMail=="mo@mo" && userPassword=="mo") setUserConnect({"isConnected" : true})
     console.log(userConnect)

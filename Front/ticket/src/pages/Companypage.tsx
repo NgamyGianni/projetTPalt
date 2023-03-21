@@ -2,8 +2,7 @@ import { FilmCardContainer } from "../components/film/Film";
 import { CineCard } from "../components/cinema/CineCard";
 import { Film } from "../Interfaces/film";
 import { Cine } from "../Interfaces/cine";
-import { Button, Grid } from "@nextui-org/react";
-import { cinemaList } from '../components/cinema/Cinemalist';
+import { Grid } from "@nextui-org/react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 

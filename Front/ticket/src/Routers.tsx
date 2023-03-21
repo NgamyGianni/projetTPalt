@@ -4,18 +4,14 @@ import Companypage from './pages/Companypage'
 import Homepage from './pages/Homepage'
 import Identification from './pages/identification/Identification'
 import Register from './pages/identification/Register'
-import { useLogin } from './components/LoginContext'
+import Panier from './pages/Panier'
+import { useGlobal } from './components/Context'
 import { Navigate } from 'react-router-dom'
 function Routers() {
-  const {userConnect}=useLogin();
+  const {userConnect}=useGlobal();
   return (
     <Routes>
         <Route path="/" element={<Homepage />} />
-<<<<<<< HEAD
-        <Route path="/cinema/:id" element={<Companypage />} />
-        <Route path="/iden" element={<Identification />} />
-        <Route path="/register" element={<Register />} />
-=======
         
         <Route path="/cinema/:id" element={<Companypage />} />
         <Route path="/authentification" 
@@ -23,7 +19,8 @@ function Routers() {
                 />
         <Route path="/register" 
             element={userConnect.isConnected ?<Navigate to="/"/>:<Register />} />
->>>>>>> homepage
+        <Route path="/panier" 
+            element={<Panier />} />
     </Routes>
   )
 }

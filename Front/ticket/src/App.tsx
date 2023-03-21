@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/footer/Footer'
-import LoginProvider from './components/LoginContext'
+import Provider from './components/Context'
 import { Container } from "@nextui-org/react"
 import './App.css'
 import Routers from './Routers'
@@ -11,11 +11,11 @@ const App = () => {
   
   return (
     <div>
-      <LoginProvider>
+      <Provider>
         <Header/>
         <Routers />
         <Footer />
-      </LoginProvider>
+      </Provider>
     </div>
   )
 }
