@@ -1,37 +1,35 @@
 import { Film } from "../Interfaces/film";
 import { Cine } from "../Interfaces/cine";
+import { Ticket } from "../Interfaces/ticket";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useGlobal } from "../components/Context";
 import { Card, Button, Text } from "@nextui-org/react";
 
-
 const Panier = () => {
-    const {userPanier, setUserPanier} = useGlobal();
+    const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
 
     useEffect(() => {
-        if(userPanier.size === 0 && localStorage.getItem("panier") !== null)    setUserPanier(new Map(JSON.parse(localStorage.getItem("panier"))))
+        if(panier !== undefined) localStorage.setItem("panier", JSON.stringify([...panier]));
+    }, [panier])
+
+    useEffect(() => {
+        if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
+        console.log(panier)
     }, [])
 
-    const removeItem = (film : Film) => {
-        const tmp : Map<Film, number> = new Map(userPanier)
-        tmp.delete(film)
-        setUserPanier(new Map(tmp))
-        console.log(new Map(tmp))
-        const panierJson = JSON.stringify([...userPanier])
-        console.log(panierJson)
-        console.log(new Map(JSON.parse(localStorage.getItem("panier"))))
-        localStorage.setItem("panier", panierJson)
-        console.log(new Map(JSON.parse(localStorage.getItem("panier"))))
+    console.log(panier)
+
+    const removePanier = (ticket : Ticket) => {
+        return panier?.filter((element : Ticket) => element !== ticket)
     }
 
-    const ticket = (film : Film) => {
+    const line = (ticket : Ticket) => {
         return (
             <div>
-                <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}} >{film.name}</Text>
-                <Text color="primary">Quantity : {userPanier.get(film)}</Text>
+                <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}} >{ticket.film.name}</Text>
+                <Text color="primary">Quantity : {ticket.count}</Text>
                 <Text color="primary">Price : 10</Text>
-                <Button onClick={(e) => removeItem(film)}>Cancel</Button>
+                <Button onClick={(e) => setPanier(removePanier(ticket))}>Cancel</Button>
             </div>
         )
     }
@@ -42,10 +40,10 @@ const Panier = () => {
                 <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>Panier</Text>
             </Card.Header>
             <Card.Body>
-                {userPanier.size !== 0 ? Array.from(userPanier.keys()).map((film : Film) => ticket(film)) : ""}
+                {panier?.length !== 0 ? panier?.map((ticket : Ticket) => line(ticket)) : ""}
             </Card.Body>
             <Card.Footer>
-                <Button onClick={(e) => console.log(userPanier)}>Pay</Button>
+                <Button onClick={(e) => console.log(panier)}>Pay</Button>
             </Card.Footer>
         </Card>
     )

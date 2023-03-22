@@ -8,6 +8,7 @@ import Reservation from './pages/identification/Reservation'
 
 import { useLogin } from './components/LoginContext'
 import { Navigate } from 'react-router-dom'
+import Panier from './pages/Panier'
 
 function Routers() {
   const {userConnect}=useLogin();
@@ -22,7 +23,7 @@ function Routers() {
             element={userConnect.isConnected ?<Navigate to="/"/>:<Register />} />
         <Route path="/reservation" 
             element={userConnect.isConnected ?< Reservation/>:<Navigate to="/"/>} />
-
+        <Route path="/panier" element={<Panier/>} />
     </Routes>
   )
 }

@@ -2,6 +2,7 @@ import { FilmCardContainer } from "../components/film/Film";
 import { CineCard } from "../components/cinema/CineCard";
 import { Film } from "../Interfaces/film";
 import { Cine } from "../Interfaces/cine";
+import { Ticket } from "../Interfaces/ticket";
 import { Grid } from "@nextui-org/react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";

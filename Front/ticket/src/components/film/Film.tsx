@@ -1,25 +1,28 @@
 import { useState, useEffect } from "react"
 import { Film } from "../../Interfaces/film";
+import { Ticket } from "../../Interfaces/ticket";
 import { Card, Text, Container, Input, Button } from "@nextui-org/react";
-import { useGlobal } from '../../components/Context';
 
 const FilmCard = (props : any) => {
     const [nbTicket, setNbTicket] = useState<number>(0);
-    const {userPanier, setUserPanier} = useGlobal();
+    const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
     
     const film : Film = props.film;
 
-    console.log(userPanier);
+    console.log(panier);
 
     const addPanier = () => {
-        setUserPanier(userPanier.set(film, userPanier.get(film) !== undefined ? userPanier.get(film) + nbTicket : nbTicket));
-        const panierJson = JSON.stringify([...userPanier])
-        localStorage.setItem("panier", panierJson)
+        if (panier === undefined)   return [{"film" : film, "count" : nbTicket, "price" : 10}]; 
+        return panier.find((e) => e.film === film) ? panier.map((ticket) => { if(ticket.film.name === film.name) return {"film" : ticket.film, "count" : ticket.count+nbTicket, "price" : 10}; else return ticket}) : panier.concat([{"film" : film, "count" : nbTicket, "price" : 10}]);
     }
 
     useEffect(() => {
-        if(userPanier.size === 0 && localStorage.getItem("panier") !== null)    setUserPanier(new Map(JSON.parse(localStorage.getItem("panier"))))
+       if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
     }, [])
+
+    useEffect(() => {
+        if(panier !== undefined) localStorage.setItem("panier", JSON.stringify([...panier]));
+    }, [panier])
 
     return (
         <Card variant="bordered" css={{ mw: "400px" }}>
@@ -37,7 +40,7 @@ const FilmCard = (props : any) => {
                 <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>{film.description}</Text>
             </Card.Footer>
             <Card.Footer>
-                    <Button onClick={(e) => {if(nbTicket !== 0)  {addPanier()}}}>Buy Tickets</Button>
+                    <Button onClick={(e) => {if(nbTicket !== 0)  {setPanier(addPanier())}}}>Buy Tickets</Button>
                     <Input onChange={(e) => setNbTicket(parseInt(e.target.value))} underlined type="number"/>
             </Card.Footer>
         </Card>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { useGlobal } from '../../components/Context';
+import { useLogin } from '../../components/LoginContext';
 
 function Register() {
   const [userFirstName,setUserFirstName] = useState("");
@@ -8,7 +8,7 @@ function Register() {
   const [userMail,setUserMail] = useState("");
   const [userPassword,setuserPassword] = useState("");
   //
-  const {userConnect,setUserConnect} = useGlobal();
+  const {userConnect,setUserConnect} = useLogin();
   // let handleTest =()=>{
   //   if (userMail=="mo@mo" && userPassword=="mo" 
   //       && userFirstName=="mo" && userLastName=="mo") 
