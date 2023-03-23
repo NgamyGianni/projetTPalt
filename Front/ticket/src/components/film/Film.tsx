@@ -41,7 +41,7 @@ const FilmCard = (props : any) => {
             </Card.Footer>
             <Card.Footer>
                     <Button onClick={(e) => {if(nbTicket !== 0)  {setPanier(addPanier())}}}>Buy Tickets</Button>
-                    <Input onChange={(e) => setNbTicket(parseInt(e.target.value))} underlined type="number"/>
+                    <Input color="secondary" status="primary" initialValue={1} onChange={(e) => setNbTicket(parseInt(e.target.value))} type="number"/>
             </Card.Footer>
         </Card>
     )

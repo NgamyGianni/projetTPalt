@@ -21,6 +21,7 @@ const Companypage = () => {
 
     const movieToFilm = (movie : any) : Film => {
         return {
+            cinema : toCine(cine),
             name : movie["title"],
             img : "https://cinema.apidae-tourisme.com"+movie["posters"]["medium"],
             description : movie["synopsis"],

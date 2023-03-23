@@ -3,7 +3,8 @@ import { Cine } from "../Interfaces/cine";
 import { Ticket } from "../Interfaces/ticket";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Card, Button, Text } from "@nextui-org/react";
+import { Card, Button, Text, Modal } from "@nextui-org/react";
+import { Reservation } from "../Interfaces/reservation";
 
 const Panier = () => {
     const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
@@ -14,10 +15,49 @@ const Panier = () => {
 
     useEffect(() => {
         if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
-        console.log(panier)
     }, [])
 
     console.log(panier)
+
+    const handleSubmit = async (reservation : Reservation) => {
+        try {
+          let res = await fetch("http://localhost:8080/init/reservation", {
+            method: "POST",
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(reservation)
+          });
+          let resJson = await res.json();
+          console.log(resJson);
+          if (res.status === 200) {
+            console.log("success : reservation")
+          } else {
+            console.log("Some error occured");
+          }
+        } catch (err) {
+          console.log(err);
+        }
+    };
+
+    const reserveAndClear = () => {
+        panier?.forEach(
+            ticket => handleSubmit(ticketToReservation(ticket))
+        )
+
+        return [];
+    }
+
+    const ticketToReservation = (ticket : Ticket) => {
+        return {
+            state : false,
+            userId : 1,
+            date : new Date().toString(),
+            idCinema : ticket.film.cinema.id,
+            filmName : ticket.film.name
+        }
+    }
 
     const removePanier = (ticket : Ticket) => {
         return panier?.filter((element : Ticket) => element !== ticket)
@@ -43,7 +83,7 @@ const Panier = () => {
                 {panier?.length !== 0 ? panier?.map((ticket : Ticket) => line(ticket)) : ""}
             </Card.Body>
             <Card.Footer>
-                <Button onClick={(e) => console.log(panier)}>Pay</Button>
+                <Button onClick={(e) => {setPanier(reserveAndClear())}}>Pay</Button>
             </Card.Footer>
         </Card>
     )

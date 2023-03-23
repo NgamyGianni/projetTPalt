@@ -1,8 +1,11 @@
+import { Cine } from "./cine";
+
 export interface Film{
-    name: string;
-    img: string;
-    description: string;
-    nb_place: number;
-    available_place: number;
-    date: string;
+    cinema : Cine,
+    name: string,
+    img: string,
+    description: string,
+    nb_place: number,
+    available_place: number,
+    date: string
 }
