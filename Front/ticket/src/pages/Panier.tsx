@@ -1,23 +1,24 @@
 import { Film } from "../Interfaces/film";
 import { Cine } from "../Interfaces/cine";
 import { Ticket } from "../Interfaces/ticket";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { Card, Button, Text, Modal } from "@nextui-org/react";
 import { Reservation } from "../Interfaces/reservation";
+import { usePanier } from '../components/PanierContext';
 
 const Panier = () => {
-    const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
+    const {panierVisible,setPanierVisible, panier, setPanier} = usePanier();
 
-    useEffect(() => {
-        if(panier !== undefined) localStorage.setItem("panier", JSON.stringify([...panier]));
-    }, [panier])
+    // useEffect(() => {
+    //     if(panier !== undefined && JSON.stringify([...panier]) != localStorage.getItem("panier")) localStorage.setItem("panier", JSON.stringify([...panier]));
+    // }, [panier])
 
-    useEffect(() => {
-        if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
-    }, [])
+    // useEffect(() => {
+    //     if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
+    // }, [localStorage.getItem("panier")])
 
-    console.log(panier)
+    console.log(panierVisible)
 
     const handleSubmit = async (reservation : Reservation) => {
         try {
@@ -74,18 +75,20 @@ const Panier = () => {
         )
     }
 
+    console.log(panier)
+
     return (
-        <Card>
-            <Card.Header>
+        <Modal open={panierVisible} onClose={(e) => setPanierVisible(false)}>
+            <Modal.Header>
                 <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>Panier</Text>
-            </Card.Header>
-            <Card.Body>
+            </Modal.Header>
+            <Modal.Body>
                 {panier?.length !== 0 ? panier?.map((ticket : Ticket) => line(ticket)) : ""}
-            </Card.Body>
-            <Card.Footer>
+            </Modal.Body>
+            <Modal.Footer>
                 <Button onClick={(e) => {setPanier(reserveAndClear())}}>Pay</Button>
-            </Card.Footer>
-        </Card>
+            </Modal.Footer>
+        </Modal>
     )
 }
 

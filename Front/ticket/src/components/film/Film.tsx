@@ -2,10 +2,12 @@ import { useState, useEffect } from "react"
 import { Film } from "../../Interfaces/film";
 import { Ticket } from "../../Interfaces/ticket";
 import { Card, Text, Container, Input, Button } from "@nextui-org/react";
+import { usePanier } from "../PanierContext";
 
 const FilmCard = (props : any) => {
     const [nbTicket, setNbTicket] = useState<number>(0);
-    const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
+    const {panierVisible,setPanierVisible, panier, setPanier} = usePanier();
+    //const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
     
     const film : Film = props.film;
 
@@ -16,13 +18,14 @@ const FilmCard = (props : any) => {
         return panier.find((e) => e.film === film) ? panier.map((ticket) => { if(ticket.film.name === film.name) return {"film" : ticket.film, "count" : ticket.count+nbTicket, "price" : 10}; else return ticket}) : panier.concat([{"film" : film, "count" : nbTicket, "price" : 10}]);
     }
 
-    useEffect(() => {
-       if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
-    }, [])
+    // useEffect(() => {
+    //     if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
+    //     console.log(panier)
+    // }, [localStorage.getItem("panier")])
 
-    useEffect(() => {
-        if(panier !== undefined) localStorage.setItem("panier", JSON.stringify([...panier]));
-    }, [panier])
+    // useEffect(() => {
+    //     if(panier !== undefined) localStorage.setItem("panier", JSON.stringify([...panier]));
+    // }, [panier])
 
     return (
         <Card variant="bordered" css={{ mw: "400px" }}>
@@ -40,8 +43,8 @@ const FilmCard = (props : any) => {
                 <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>{film.description}</Text>
             </Card.Footer>
             <Card.Footer>
-                    <Button onClick={(e) => {if(nbTicket !== 0)  {setPanier(addPanier())}}}>Buy Tickets</Button>
-                    <Input color="secondary" status="primary" initialValue={1} onChange={(e) => setNbTicket(parseInt(e.target.value))} type="number"/>
+                    <Button onClick={(e) => {if(nbTicket !== 0)  {setPanier(addPanier())}; console.log(panier)}}>Buy Tickets</Button>
+                    <Input color="secondary" status="primary" onChange={(e) => setNbTicket(parseInt(e.target.value))} type="number"/>
             </Card.Footer>
         </Card>
     )

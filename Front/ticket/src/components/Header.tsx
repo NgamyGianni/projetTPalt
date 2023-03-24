@@ -3,10 +3,15 @@ import { Navbar, Button } from "@nextui-org/react";
 import { useHref } from 'react-router-dom';
 import { useNavigate, useLocation} from 'react-router-dom';
 import { useLogin } from './LoginContext';
+import { usePanier } from './PanierContext';
+import Panier from '../pages/Panier';
+
 const Header = () => {
   
   const [stateFocus, setStateFocus] = useState({login:false,signUp:false});
   const {userConnect, setUserConnect} = useLogin();
+  const {panierVisible,setPanierVisible} = usePanier();
+
   let navigate = useNavigate();
   let location = useLocation();
   const borderButton={
@@ -94,9 +99,10 @@ const Header = () => {
             
           }
           <Navbar.Item>
-            <Navbar.Link color="default" href="/panier">Panier</Navbar.Link>
+            <Button color="default" onClick={(e) => {setPanierVisible(!panierVisible)}}></Button>
           </Navbar.Item>
         </Navbar.Content>
+        <Panier/>
     </Navbar>
   )
 }

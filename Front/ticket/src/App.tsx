@@ -6,15 +6,19 @@ import { Container } from "@nextui-org/react"
 import './App.css'
 import Routers from './Routers'
 import { Route, Routes } from 'react-router-dom'
+import PanierProvider from './components/PanierContext'
+
 const App = () => {
   //const [count, setCount] = useState(0)
   
   return (
     <div>
       <LoginProvider>
-        <Header/>
-        <Routers />
-        <Footer />
+        <PanierProvider>
+          <Header/>
+          <Routers />
+          <Footer />
+        </PanierProvider>
       </LoginProvider>
     </div>
   )

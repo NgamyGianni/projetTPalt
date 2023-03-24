@@ -6,6 +6,7 @@ import { Ticket } from "../Interfaces/ticket";
 import { Grid } from "@nextui-org/react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useLogin } from '../components/LoginContext';
 
 const Companypage = () => {
     const [cine, setCine] = useState(null);
