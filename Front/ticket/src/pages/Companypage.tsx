@@ -12,6 +12,7 @@ const Companypage = () => {
     const [cine, setCine] = useState(null);
     const [films, setFilms] = useState(undefined);
     const idCine = useParams()["id"]?.toString(); //340507
+    const {userConnect, setUserConnect} = useLogin();
 
     const getCine = (id : string | undefined) => {
         fetch("http://localhost:8080/init/seances/"+id)

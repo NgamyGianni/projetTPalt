@@ -6,9 +6,11 @@ import { useParams } from "react-router-dom";
 import { Card, Button, Text, Modal } from "@nextui-org/react";
 import { Reservation } from "../Interfaces/reservation";
 import { usePanier } from '../components/PanierContext';
+import { useLogin } from '../components/LoginContext';
 
 const Panier = () => {
     const {panierVisible,setPanierVisible, panier, setPanier} = usePanier();
+    const {userConnect, setUserConnect} = useLogin();
 
     // useEffect(() => {
     //     if(panier !== undefined && JSON.stringify([...panier]) != localStorage.getItem("panier")) localStorage.setItem("panier", JSON.stringify([...panier]));

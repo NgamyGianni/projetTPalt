@@ -1,4 +1,5 @@
 import Cinema from "../components/cinema/Cinema";
+import { Button } from "@nextui-org/react";
 
 const Homepage = () => {
     return(
