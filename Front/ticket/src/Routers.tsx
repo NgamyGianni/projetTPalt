@@ -16,7 +16,7 @@ function Routers() {
     <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/cinema/:id" 
-            element={userConnect.isConnected ?<Companypage/>:<Navigate to="/"/>} />
+            element={<Companypage/>} />
         <Route path="/authentification" 
               element={userConnect.isConnected ?<Navigate to="/"/>:<Identification />} 
                 />
