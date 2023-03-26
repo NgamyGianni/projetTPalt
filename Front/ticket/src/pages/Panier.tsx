@@ -56,7 +56,7 @@ const Panier = () => {
         return {
             state : false,
             userId : 1,
-            date : new Date().toString(),
+            date : ticket.date,
             idCinema : ticket.film.cinema.id,
             filmName : ticket.film.name
         }

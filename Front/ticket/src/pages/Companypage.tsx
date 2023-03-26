@@ -7,12 +7,15 @@ import { Grid } from "@nextui-org/react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useLogin } from '../components/LoginContext';
+import { Button } from '@nextui-org/react';
 
 const Companypage = () => {
     const [cine, setCine] = useState(null);
-    const [films, setFilms] = useState(undefined);
+    const [films, setFilms] = useState<Array<Film>>([]);
     const idCine = useParams()["id"]?.toString(); //340507
     const {userConnect, setUserConnect} = useLogin();
+    const [day, setDay] = useState(1);
+    const today = new Date();
 
     const getCine = (id : string | undefined) => {
         fetch("http://localhost:8080/init/seances/"+id)
@@ -40,7 +43,15 @@ const Companypage = () => {
         }
     }
 
-    const getFilms = (n : number) : Film => cine !== null ? cine["theater_movies"].slice(0, n).map((e) => movieToFilm(e)) : [];
+    const getFilms = (start : number, end : number) : Film => cine !== null ? cine["theater_movies"].slice(start, end).map((e) => movieToFilm(e)) : [];
+
+    const dayToString = (date : Date) => date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear();
+
+    const addDays = (date: Date, days: number): Date => {
+        const tmpdate = new Date()
+        tmpdate.setDate(tmpdate.getDate() + days);
+        return tmpdate;
+    }
 
     useEffect(() => {
         getCine(idCine);
@@ -56,7 +67,14 @@ const Companypage = () => {
                 }
             </Grid>
             <Grid xs={6}>
-                <FilmCardContainer films={getFilms(5)} />
+                <Button.Group color="gradient">
+                    <Button ghost={day !== 1} onClick={(e) => setDay(1)}>{dayToString(today)}</Button>
+                    <Button ghost={day !== 2} onClick={(e) => setDay(2)}>{dayToString(addDays(today, 1))}</Button>
+                    <Button ghost={day !== 3} onClick={(e) => setDay(3)}>{dayToString(addDays(today, 2))}</Button>
+                </Button.Group>
+                {day === 1 ? <FilmCardContainer date={today} films={getFilms(0, 5)} /> : ""}
+                {day === 2 ? <FilmCardContainer date={addDays(today, 1)} films={getFilms(6, 11)} /> : ""}
+                {day === 3 ? <FilmCardContainer date={addDays(today, 2)} films={getFilms(12, 17)} /> : ""}
             </Grid>
         </Grid.Container>
     )
