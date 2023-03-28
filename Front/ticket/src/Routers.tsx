@@ -4,9 +4,9 @@ import Companypage from './pages/Companypage'
 import Homepage from './pages/Homepage'
 import Identification from './pages/identification/Identification'
 import Register from './pages/identification/Register'
-import Reservation from './pages/identification/Reservation'
+import Reservation from './pages/reservation/Reservation'
 
-import { useLogin } from './components/LoginContext'
+import { useLogin } from './contexts/loginContext'
 import { Navigate } from 'react-router-dom'
 function Routers() {
   const {userConnect}=useLogin();

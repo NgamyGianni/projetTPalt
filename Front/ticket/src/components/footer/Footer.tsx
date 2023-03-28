@@ -5,19 +5,12 @@ function Footer() {
   return (
     <footer className='footer'>
       <div className='description-footer'>
-          <div className='footer-left'>
-            <p>Parténaires Cinémas</p>
-            <div className='links'>
-              <Link to="" >Liste cinéma</Link>
-              {/* <Link to="">Liste cinéma</Link>
-              <Link to="">Liste cinéma</Link> */}
-            </div>
-          </div>
-          <div className='footer-right'>
-            <Link to="" className='.link'>Contact us</Link>
+          <div className='partner'>Nos partenaire</div>
+          <div className='links'>
+            <Link to="" className='link'>Liste cinéma</Link>
+            <Link to="" className='link'>Contact Us</Link>
           </div>
       </div>
-      
     </footer>
   )
 }
