@@ -2,7 +2,7 @@ import {useState, createContext, useContext} from 'react'
 
 import React from 'react'
 import { Film } from '../Interfaces/film'
-
+import { UserConnect } from '../Interfaces/userConnect'
 const LoginContext = createContext({})
 
 export function useLogin():any{
@@ -10,7 +10,7 @@ export function useLogin():any{
 }
 
 function LoginProvider({children}:any) {
-    const [userConnect, setUserConnect]= useState({"isConnected" : false})
+    const [userConnect, setUserConnect]= useState<UserConnect>({"isConnected" : false})
   return (
     <LoginContext.Provider value={{userConnect, setUserConnect}}>
         {children}

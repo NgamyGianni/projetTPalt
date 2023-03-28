@@ -1,0 +1,126 @@
+:root{
+    --qr-code-size:170px;
+    --min-width-reservation:200px;
+    --max-width-reservation: 50vw;/*600*/
+}
+.reservationList{
+    width:var(--max-width-reservation);
+    height:auto;
+    margin:10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:10px auto;
+    border-radius: 100px 10px 0 0;
+    /* background-color: rgb(183, 255, 0); */
+    gap:10px;
+    
+    
+}
+.reservationList ul{
+    list-style-type: none;
+    width: 100%;
+    height: var(--qr-code-size);
+    margin:0 0;
+    color:black;
+}
+.reservationList ul .reservation-item{
+    width: 100%;
+    height: var(--qr-code-size);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(183, 255, 0);
+    /* gap: 0.5%; */
+}
+.reservation-item .qr-code{
+    width: var(--qr-code-size);
+    height: 100%;
+    /* background-color: red; */
+    /* margin-right: 10px; */
+}
+.reservation-item .ticket-details{
+    width:calc(var(--width-reservation) - var(--qr-code-size));
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* padding: 0 10px; */
+}
+/* .ticket-details .movie-name,.ticket-details .displaying-date{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+} */
+
+.ticket-details .detailled-movie{
+    /* width: calc(100% - var(--qr-code-size)); */
+    width: 40%;
+    height: 100%;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 0.4rem 0.5rem;
+    /* gap:30px; */
+}
+.ticket-details .descr-show {
+    /* width: calc(100% - var(--qr-code-size)); */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* background-color: green; */
+    align-items:center;
+    padding: 0.5rem 1rem;
+    
+    /* padding: 0.4rem 0.5rem; */
+    /* gap:30px; */
+}
+
+.detailled-movie img{
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    /* margin-right: 20px; */
+}
+.detailled-movie .movie-name {
+    width: 100%;
+    height: 30%;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    padding-top:0.09rem ;
+}
+.descr-show .ticket-number, .descr-show .displaying-date,
+.descr-show .displaying-time{
+    width:100%;
+    height: 20%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.descr-show .state-movie {
+    /* width: 1.5rem;
+    height:1.5em;
+    background-color: black; */
+    /* border-radius: 100%; */
+    width: 40%;
+    height:20%;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+.state-movie .status-text{
+    
+}
+.state-movie .state-block {
+    width: 1.5rem;
+    height: 1.5em;
+    background-color: black;
+    align-self: center;
+}
