@@ -7,7 +7,7 @@ import { usePanier } from "../PanierContext";
 const FilmCard = (props : any) => {
     const [nbTicket, setNbTicket] = useState<number>(0);
     const {panierVisible,setPanierVisible, panier, setPanier} = usePanier();
-    //const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
+    const [init, setInit] = useState<boolean>(false);    
     
     const film : Film = props.film;
     const date : Date = props.date;
@@ -15,18 +15,24 @@ const FilmCard = (props : any) => {
     console.log(panier);
 
     const addPanier = () => {
-        if (panier === undefined)   return [{"film" : film, "count" : nbTicket, "price" : 10, "date" : date}]; 
+        if (panier === [])   return [{"film" : film, "count" : nbTicket, "price" : 10, "date" : date}]; 
         return panier.find((e) => e.film === film) ? panier.map((ticket) => { if(ticket.film.name === film.name) return {"film" : ticket.film, "count" : ticket.count+nbTicket, "price" : 10, "date" : date}; else return ticket}) : panier.concat([{"film" : film, "count" : nbTicket, "price" : 10, "date" : date}]);
     }
 
-    // useEffect(() => {
-    //     if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
-    //     console.log(panier)
-    // }, [localStorage.getItem("panier")])
+    useEffect(() => {
+        //read
+        if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) {
+            console.log("reading")
+            setPanier(JSON.parse(localStorage.getItem("panier")));
+        }
+        console.log(panier)
+    }, [])
 
-    // useEffect(() => {
-    //     if(panier !== undefined) localStorage.setItem("panier", JSON.stringify([...panier]));
-    // }, [panier])
+    useEffect(() => {
+        //write
+        if(panier.length !== 0 || init) localStorage.setItem("panier", JSON.stringify([...panier]));
+        setInit(true)
+    }, [panier])
 
     return (
         <Card variant="bordered" css={{ mw: "400px" }}>

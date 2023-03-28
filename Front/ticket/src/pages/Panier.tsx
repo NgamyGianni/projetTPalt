@@ -11,14 +11,18 @@ import { useLogin } from '../components/LoginContext';
 const Panier = () => {
     const {panierVisible,setPanierVisible, panier, setPanier} = usePanier();
     const {userConnect, setUserConnect} = useLogin();
+    const [init, setInit] = useState<boolean>(false);
 
-    // useEffect(() => {
-    //     if(panier !== undefined && JSON.stringify([...panier]) != localStorage.getItem("panier")) localStorage.setItem("panier", JSON.stringify([...panier]));
-    // }, [panier])
+    useEffect(() => {
+        //read
+        if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
+    }, [])
 
-    // useEffect(() => {
-    //     if(localStorage.length !== 0 && localStorage.getItem("panier") !== null) setPanier(JSON.parse(localStorage.getItem("panier")));
-    // }, [localStorage.getItem("panier")])
+    useEffect(() => {
+        //write
+        if(panier.length !== 0 || init) localStorage.setItem("panier", JSON.stringify([...panier]));
+        setInit(true);
+    }, [panier])
 
     console.log(panierVisible)
 
