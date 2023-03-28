@@ -10,12 +10,13 @@ const FilmCard = (props : any) => {
     //const [panier, setPanier] = useState<Array<Ticket> | undefined>(undefined);
     
     const film : Film = props.film;
+    const date : Date = props.date;
 
     console.log(panier);
 
     const addPanier = () => {
-        if (panier === undefined)   return [{"film" : film, "count" : nbTicket, "price" : 10}]; 
-        return panier.find((e) => e.film === film) ? panier.map((ticket) => { if(ticket.film.name === film.name) return {"film" : ticket.film, "count" : ticket.count+nbTicket, "price" : 10}; else return ticket}) : panier.concat([{"film" : film, "count" : nbTicket, "price" : 10}]);
+        if (panier === undefined)   return [{"film" : film, "count" : nbTicket, "price" : 10, "date" : date}]; 
+        return panier.find((e) => e.film === film) ? panier.map((ticket) => { if(ticket.film.name === film.name) return {"film" : ticket.film, "count" : ticket.count+nbTicket, "price" : 10, "date" : date}; else return ticket}) : panier.concat([{"film" : film, "count" : nbTicket, "price" : 10, "date" : date}]);
     }
 
     // useEffect(() => {
@@ -52,10 +53,11 @@ const FilmCard = (props : any) => {
 
 export const FilmCardContainer = (props : any) => {
     const films = props.films;
+    const date : Date = props.date;
 
     return (
         <Container>
-        { films.map((film) =>   <FilmCard film={film}/>) }
+        { films.map((film) =>   <FilmCard date={date} film={film}/>) }
         </Container>
     )
 }
