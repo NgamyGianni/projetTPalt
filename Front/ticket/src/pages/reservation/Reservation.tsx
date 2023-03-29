@@ -2,13 +2,13 @@ import React, { useState, useEffect} from 'react'
 import './reservation.css'
 import { UserReservation } from '../../Interfaces/userReservation'
 import { listReservation } from './listReservation'
-import { useLogin } from '../../contexts/loginContext'
 import ResversationItem from './ResversationItem'
-
+import QrCodeProvider from '../../contexts/qrcodeContext'
+import PopupQrcode from '../../components/PopupQrcode'
+import { QRCodeCanvas } from 'qrcode.react'
 
 function Reservation() {
 
-  const {userConnect}= useLogin();
 
   const [reservationList, setReservationList]=
         useState<UserReservation[]>(listReservation);
@@ -30,8 +30,18 @@ function Reservation() {
         reservationList.map(
             elt=>
             <ul key={elt.id}>
-              <ResversationItem reservation={elt} 
-              qrCodeLink={qrCodeEncoder(elt)}/>
+              <QrCodeProvider>
+                <ResversationItem reservation={elt} 
+                qrCodeLink={qrCodeEncoder(elt)}/>
+                <PopupQrcode movieName={elt.filmName}>
+                  <QRCodeCanvas
+                    className='qr-code'
+                    value={qrCodeEncoder(elt)}
+                    size={350}
+                    bgColor={"#00ffee"}
+                    level={"H"}/>
+                </PopupQrcode>
+              </QrCodeProvider>
             </ul>
           )
       }
