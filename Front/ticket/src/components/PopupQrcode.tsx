@@ -8,7 +8,7 @@ interface QrcodePopup{
 }
 function PopupQrcode({children, movieName}:QrcodePopup) {
     const {visibleQRcode, setVisibleQRcode} = useQrcode();
-    const handler = () => setVisibleQRcode(true);
+    // const handler = () => setVisibleQRcode(true);
     const closeHandler = () => {
     setVisibleQRcode(false);
     console.log("closed");

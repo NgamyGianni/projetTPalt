@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import { QRCodeCanvas } from 'qrcode.react'
 import { UserReservation } from '../../Interfaces/userReservation'
-import PopupQrcode from '../../components/PopupQrcode'
 import { useQrcode} from '../../contexts/qrcodeContext'
 
 
@@ -51,17 +50,6 @@ function ResversationItem({reservation,qrCodeLink}:DataReservation) {
             </div>
           </div>
         </div>
-        {visibleQRcode && 
-            <PopupQrcode movieName={reservation.filmName}>
-              <QRCodeCanvas
-                className='qr-code'
-                value={qrCodeLink}
-                size={350}
-                bgColor={"#00ffee"}
-                level={"H"}/>
-            </PopupQrcode>
-        }
-        
       </div>
     
   )
