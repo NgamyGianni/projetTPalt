@@ -17,7 +17,7 @@ export const listReservation:UserReservation[] =
         "userId" : 30,
         "date" : "25/03/2022",
         "idCinema" : 25,
-        "filmName" : "Ocaml programming",
+        "filmName" : "Spider man",
         "filmLink":"https://www.leparisien.fr/resizer/H3UcwPvYUF0sl3sSgteQEXV2Vfw=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/7XCTLVCNXF4HDTY7OTE7UQWRUY.jpg"
       },
       {
@@ -36,7 +36,7 @@ export const listReservation:UserReservation[] =
         "userId" : 30,
         "date" : "22/03/2022",
         "idCinema" : 25,
-        "filmName" : "Boure Entity",
+        "filmName" : "Equalize",
         "filmLink":"https://upload.wikimedia.org/wikipedia/fr/thumb/d/db/UGC_2018.png/1200px-UGC_2018.png"
       }
 
