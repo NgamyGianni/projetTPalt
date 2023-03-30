@@ -31,43 +31,44 @@ function Register() {
     //console.log(userConnect)
 
   }
-  // let handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     let res = await fetch("http://localhost:8080/init/addUser", {
-  //       method: "POST",
-  //       headers: {
-  //         'Accept': 'application/json',
-  //         'Content-Type': 'application/json'
-  //       },
-  //       body: JSON.stringify({
-  //           "firstName":userFirstName,
-  //           "lastName":userLastName,
-  //           "mail": userMail,
-  //           "password": userPassword
-  //       })
-  //     });
-  //     let resJson = await res.json();
-  //     console.log(resJson);
-  //     if (res.status === 200) {
-  //       setUserFirstName("");
-  //       setUserLastName("")
-  //       setUserMail("");
-  //       setuserPassword("");
-  //       //setUserConnect({"isConnected" : true})
-  //     } else {
-  //       console.log("Some error occured");
-  //     }
-  //   } catch (err) {
-  //     console.log(err);
-  //   }
-  // };
+  let handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("http://localhost:8080/init/addUser", {
+        method: "POST",
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            "firstName":userFirstName,
+            "lastName":userLastName,
+            "mail": userMail,
+            "password": userPassword
+        })
+      });
+      let resJson = await res.json();
+      console.log(resJson);
+      if (res.status === 200) {
+        setUserFirstName("");
+        setUserLastName("")
+        setUserMail("");
+        setuserPassword("");
+        setStateRegistration(true)
+        //setUserConnect({"isConnected" : true})
+      } else {
+        console.log("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
   
   return (
     
       <div className='identification'>
         <div className='title'>Create an account</div>
-        <form  onSubmit={handleTest}>
+        <form  onSubmit={handleSubmit}>
           <div>
             <label htmlFor="firstName"> FirstName </label>
             <input type="text" onChange={e=>setUserFirstName(e.target.value)} value={userFirstName}/>
