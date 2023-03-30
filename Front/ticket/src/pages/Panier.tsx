@@ -5,8 +5,8 @@ import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { Card, Button, Text, Modal } from "@nextui-org/react";
 import { Reservation } from "../Interfaces/reservation";
-import { usePanier } from '../components/PanierContext';
-import { useLogin } from '../components/LoginContext';
+import { usePanier } from '../contexts/PanierContext';
+import { useLogin } from '../contexts/loginContext';
 
 const Panier = () => {
     const {panierVisible,setPanierVisible, panier, setPanier} = usePanier();

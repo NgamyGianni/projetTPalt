@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { Film } from "../../Interfaces/film";
 import { Ticket } from "../../Interfaces/ticket";
 import { Card, Text, Container, Input, Button } from "@nextui-org/react";
-import { usePanier } from "../PanierContext";
+import { usePanier } from "../../contexts/PanierContext";
 
 const FilmCard = (props : any) => {
     const [nbTicket, setNbTicket] = useState<number>(0);

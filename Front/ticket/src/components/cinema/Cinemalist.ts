@@ -1,5 +1,5 @@
-import { Cine } from "../../Interfaces/cine"
-export const cinemaList: Cine[] = [
+//import { Cine } from "../../Interfaces/cine"
+export const cinemaList = [
     {
         name : "UGC Ciné", 
         img : "https://upload.wikimedia.org/wikipedia/fr/thumb/d/db/UGC_2018.png/1200px-UGC_2018.png"

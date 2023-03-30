@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './identification.css';
-import { useLogin } from '../../components/LoginContext';
-
+import { useLogin } from '../../contexts/loginContext';
 function Identification() {
   const [userMail,setUserMail] = useState("");
   const [userPassword,setuserPassword] = useState("");
@@ -25,12 +24,12 @@ function Identification() {
           "password": userPassword
         })
       });
-      let resJson = await res.json();
+      let resJson:string = await res.json();
       console.log(resJson);
       if (res.status === 200) {
         setUserMail("");
         setuserPassword("");
-        setUserConnect({"isConnected" : true})
+        setUserConnect({"isConnected" : true, "userId":parseInt(resJson)})
       } else {
         console.log("Some error occured");
       }

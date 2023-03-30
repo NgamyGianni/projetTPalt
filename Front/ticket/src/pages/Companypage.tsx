@@ -6,7 +6,7 @@ import { Ticket } from "../Interfaces/ticket";
 import { Grid } from "@nextui-org/react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useLogin } from '../components/LoginContext';
+import { useLogin } from '../contexts/loginContext';
 import { Button } from '@nextui-org/react';
 
 const Companypage = () => {
