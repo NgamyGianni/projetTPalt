@@ -27,4 +27,5 @@ public class Reservation {
     private String date;
     private int idCinema;
     private String filmName;
+    private String filmLink;
 }
