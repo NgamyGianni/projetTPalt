@@ -45,7 +45,7 @@ const Companypage = () => {
 
     const getFilms = (start : number, end : number) : Film => cine !== null ? cine["theater_movies"].slice(start, end).map((e) => movieToFilm(e)) : [];
 
-    const dayToString = (date : Date) => date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear();
+    const dayToString = (date : Date) => date.getMonth()+1 < 10 ? date.getDate() + "/0" + (date.getMonth()+1) + "/" + date.getFullYear() : date.getDate() + "/" + (date.getMonth()+1) + "/" + date.getFullYear()
 
     const addDays = (date: Date, days: number): Date => {
         const tmpdate = new Date()
@@ -58,7 +58,7 @@ const Companypage = () => {
     }, [])
 
     return (
-        <Grid.Container gap={2} justify="center">
+        <Grid.Container style={{marginLeft: "5%", marginTop: "2%"}}>
             <Grid xs={6}>
                 { cine ? 
                     <CineCard cine={toCine(cine)}/>
@@ -66,7 +66,7 @@ const Companypage = () => {
                     ""
                 }
             </Grid>
-            <Grid xs={6}>
+            <Grid>
                 <Button.Group color="gradient">
                     <Button ghost={day !== 1} onClick={(e) => setDay(1)}>{dayToString(today)}</Button>
                     <Button ghost={day !== 2} onClick={(e) => setDay(2)}>{dayToString(addDays(today, 1))}</Button>

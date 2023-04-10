@@ -103,7 +103,7 @@ const Header = () => {
             
           }
           <Navbar.Item>
-            <Button color="default" onClick={(e) => {setPanierVisible(!panierVisible)}}></Button>
+            <Button color="default" onClick={(e) => {setPanierVisible(!panierVisible)}}>Panier</Button>
           </Navbar.Item>
         </Navbar.Content>
         <Panier/>
