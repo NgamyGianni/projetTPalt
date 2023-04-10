@@ -102,11 +102,12 @@ const Header = () => {
             </Navbar.Content>
             
           }
+          {userConnect.isConnected ? 
           <Navbar.Item>
             <Button color="default" onClick={(e) => {setPanierVisible(!panierVisible)}}>Panier</Button>
-          </Navbar.Item>
+          </Navbar.Item> : ""}
         </Navbar.Content>
-        <Panier/>
+        {userConnect.isConnected ?  <Panier/> : ""}
     </Navbar>
   )
 }
