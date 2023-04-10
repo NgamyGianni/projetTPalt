@@ -3,5 +3,6 @@ export interface Reservation {
     userId : number,
     date : string,
     idCinema : number,
-    filmName : string
+    filmName : string,
+    filmLink : string
 }

@@ -56,13 +56,14 @@ const Panier = () => {
         return [];
     }
 
-    const ticketToReservation = (ticket : Ticket) => {
+    const ticketToReservation = (ticket : Ticket) : Reservation => {
         return {
             state : false,
-            userId : 1,
-            date : ticket.date,
+            userId : userConnect.userId,
+            date : ticket.date.toString(),
             idCinema : ticket.film.cinema.id,
-            filmName : ticket.film.name
+            filmName : ticket.film.name,
+            filmLink : ticket.film.img
         }
     }
 
