@@ -76,7 +76,7 @@ const Panier = () => {
             <div>
                 <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}} >{ticket.film.name}</Text>
                 <Text color="primary">Quantity : {ticket.count}</Text>
-                <Text color="primary">Price : 10</Text>
+                <Text color="primary">Price : {ticket.price}</Text>
                 <Button onClick={(e) => setPanier(removePanier(ticket))}>Cancel</Button>
             </div>
         )

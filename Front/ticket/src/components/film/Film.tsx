@@ -7,16 +7,34 @@ import { usePanier } from "../../contexts/PanierContext";
 const FilmCard = (props : any) => {
     const [nbTicket, setNbTicket] = useState<number>(0);
     const {panierVisible,setPanierVisible, panier, setPanier} = usePanier();
-    const [init, setInit] = useState<boolean>(false);    
-    
+    const [init, setInit] = useState<boolean>(false);
+    const [score, setScore] = useState<number | undefined>(undefined);   
+
     const film : Film = props.film;
     const date : Date = props.date;
 
     console.log(panier);
 
+    const getScore = () =>{
+        fetch("http://localhost:8080/init/score/"+film.name)
+            .then(response => response.json())
+            .then(data => setScore(data))
+        ;
+    }
+
     const addPanier = () => {
-        if (panier === [])   return [{"film" : film, "count" : nbTicket, "price" : 10, "date" : date}]; 
-        return panier.find((e) => e.film === film) ? panier.map((ticket) => { if(ticket.film.name === film.name) return {"film" : ticket.film, "count" : ticket.count+nbTicket, "price" : 10, "date" : date}; else return ticket}) : panier.concat([{"film" : film, "count" : nbTicket, "price" : 10, "date" : date}]);
+        if (panier === [])   return [{"film" : film, "count" : nbTicket, "price" : score !== undefined ? score+5 : 13.5, "date" : date}]; 
+        return panier.find((e) => e.film === film) ? panier.map((ticket) => { if(ticket.film.name === film.name) return {"film" : ticket.film, "count" : ticket.count+nbTicket, "price" : score !== undefined ? score+5 : 13.5, "date" : date}; else return ticket}) : panier.concat([{"film" : film, "count" : nbTicket, "price" : score !== undefined ? score+5 : 13.5, "date" : date}]);
+    }
+
+    const getReduc = () => {
+        if(score !== undefined){
+            console.log(score)
+            console.log(100 - ((score + 5) * 100 / 15))
+
+            return 100 - ((score + 5) * 100 / 15)
+        }
+        else 0
     }
 
     useEffect(() => {
@@ -25,7 +43,7 @@ const FilmCard = (props : any) => {
             console.log("reading")
             setPanier(JSON.parse(localStorage.getItem("panier")));
         }
-        console.log(panier)
+        getScore();
     }, [])
 
     useEffect(() => {
@@ -48,6 +66,9 @@ const FilmCard = (props : any) => {
               />
             <Card.Footer>
                 <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>{film.description}</Text>
+            </Card.Footer>
+            <Card.Footer>
+                <Text css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>Réduc :  {score !== undefined ? -Math.round(getReduc()) : -10}%</Text>
             </Card.Footer>
             <Card.Footer>
                     <Button onClick={(e) => {if(nbTicket !== 0)  {setPanier(addPanier())}; console.log(panier)}}>Buy Tickets</Button>
