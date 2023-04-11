@@ -3,11 +3,16 @@ import { Navbar, Button } from "@nextui-org/react";
 import { useHref } from 'react-router-dom';
 import { useLogin } from '../contexts/loginContext';
 import { useNavigate, useLocation} from 'react-router-dom';
+import { usePanier } from '../contexts/PanierContext';
+import Panier from '../pages/Panier';
+
 const Header = () => {
   
   const [stateFocus, setStateFocus] = useState(
                   {login:false,signUp:false, reservation:false});
   const {userConnect, setUserConnect} = useLogin();
+  const {panierVisible,setPanierVisible} = usePanier();
+
   let navigate = useNavigate();
   let location = useLocation();
   const borderButton={
@@ -32,6 +37,7 @@ const Header = () => {
     //console.log(stateLogin);
     //navigate("/register")
   }
+  const handlePanier = () => {navigate("/panier")}
   useEffect(()=>{
     //console.log(location)
     if(location.pathname=="/authentification"){
@@ -96,10 +102,12 @@ const Header = () => {
             </Navbar.Content>
             
           }
-          <Navbar.Link color="inherit" href="#">
-            Panier
-          </Navbar.Link>
+          {userConnect.isConnected ? 
+          <Navbar.Item>
+            <Button color="default" onClick={(e) => {setPanierVisible(!panierVisible)}}>Panier</Button>
+          </Navbar.Item> : ""}
         </Navbar.Content>
+        {userConnect.isConnected ?  <Panier/> : ""}
     </Navbar>
   )
 }

@@ -1,17 +1,14 @@
 package com.tpalt.tpalt.service;
 
-import com.tpalt.tpalt.model.Client;
 import com.tpalt.tpalt.model.Reservation;
 import com.tpalt.tpalt.repository.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ReservationService {
-
     @Autowired
     private ReservationRepository reservationRepository;
     @Autowired
@@ -19,7 +16,6 @@ public class ReservationService {
 
     public boolean reserve(Reservation reservation){
         System.out.println("Try add Reservation");
-
         reservation.setId(resevationGenerator.getSequenceNumber(Reservation.SEQUENCE_NAME));
         reservationRepository.save(reservation);
         return true;

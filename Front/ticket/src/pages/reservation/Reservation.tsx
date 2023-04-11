@@ -6,23 +6,24 @@ import ResversationItem from './ResversationItem'
 import QrCodeProvider from '../../contexts/qrcodeContext'
 import PopupQrcode from '../../components/PopupQrcode'
 import { QRCodeCanvas } from 'qrcode.react'
+import { useLogin } from '../../contexts/loginContext'
 
 function Reservation() {
-
+  const {userConnect} = useLogin();
 
   const [reservationList, setReservationList]=
-        useState<UserReservation[]>(listReservation);
+        useState<UserReservation[]>([]);
 
   const qrCodeEncoder=(reservation:UserReservation):string =>{
     return "reservation"+reservation.id+reservation.filmName;
   }
 
-  // useEffect(()=>{
-  //   fetch(`http://localhost:8080/init/findReservationById/${userConnect.userId}`)
-  //   .then(res => res.json())
-  //   .then(resJson => setReservationList(resJson))
-  //   .catch(err =>console.log("error to get list"))
-  // },[reservationList]);
+  useEffect(()=>{
+    fetch(`http://localhost:8080/init/findReservationById/${userConnect.userId}`)
+    .then(res => res.json())
+    .then(resJson => setReservationList(resJson))
+    .catch(err =>console.log("error to get list"))
+  },[reservationList]);
 
   return (
     <div className='reservationList'>
