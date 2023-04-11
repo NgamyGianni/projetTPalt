@@ -39,7 +39,7 @@ function Identification() {
   };
   
   return (
-    <div className='identification' style={boundaryBox}>
+    <div  className='identification' style={boundaryBox}>
       <div className='title'>Authentification</div>
       <form  onSubmit={handleSubmit} >
         <div>

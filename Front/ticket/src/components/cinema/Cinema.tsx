@@ -25,11 +25,11 @@ const Cinema = () =>{
         fetch("http://localhost:8080/init/findAllCinoche")
         .then(res=>res.json())
         .then(resJson=>setCinemaList(resJson))
-    })
+    }, [])
     const CinemaDisplay = cinemaList.map(elt=>
         <li key={elt.id} className="cinema">
             <Link to={"/cinema/"+elt.id} className="link">
-                <img  src={elt.url} alt={elt.name+" cinéma"} />
+                <img style={{  borderRadius: '10%'}} src={elt.url} alt={elt.name+" cinéma"} />
                 <div>{elt.name}</div>
             </Link>
         </li>

@@ -14,6 +14,22 @@ function ResversationItem({reservation,qrCodeLink}:DataReservation) {
   };
   const {visibleQRcode, setVisibleQRcode} = useQrcode();
   const display=():void => setVisibleQRcode(!visibleQRcode);
+
+  const displayDate = () => {
+    const d = new Date(reservation.date);
+
+    const m = d.getMonth() + 1;
+
+    const month = m < 10 ? "0"+m : m;
+
+    return d.getDate() + "/" + month + "/" + d.getFullYear();
+  }
+
+  const displayTime = () => {
+    const d = new Date(reservation.date);
+
+    return d.getHours()
+  }
   
   return (
     
@@ -38,10 +54,10 @@ function ResversationItem({reservation,qrCodeLink}:DataReservation) {
               Numéro ticket : {reservation.id}
             </div>
             <div className='displaying-date'> 
-              Date Séance : {reservation.date}
+              Date Séance : {displayDate()}
             </div>
             <div className='displaying-time'> 
-              Heure : {reservation.date}
+              Heure : {displayTime()}:00
             </div>
             <div className='state-movie'>
                 <div className='status-text'>Status</div>

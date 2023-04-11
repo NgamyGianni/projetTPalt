@@ -17,7 +17,7 @@ const App = () => {
         <PanierProvider>
           <Header/>
           <Routers />
-          <Footer />
+          {/* <Footer /> */}
         </PanierProvider>
       </LoginProvider>
     </div>

@@ -13,7 +13,8 @@ const myDarkTheme = createTheme({
 	theme: {
 		colors: {
 			// brand colors
-			background: "#fff",//#1d1d1d
+			// background: "#fff",//#1d1d1d
+			background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,46,161,1) 82%, rgba(0,54,65,1) 100%)',
 			text: "#1d1d1d"
 		},
 		space: {},

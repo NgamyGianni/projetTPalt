@@ -61,7 +61,7 @@ const Header = () => {
     
   },[location])
   return (
-    <Navbar isBordered variant={"floating"}>
+    <Navbar style={{ background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,46,161,1) 82%, rgba(0,91,110,1) 100%)' }}  isBordered variant={"floating"}>
         <Navbar.Content hideIn="xs">
           <Navbar.Link href="/" >Home</Navbar.Link>
         </Navbar.Content>

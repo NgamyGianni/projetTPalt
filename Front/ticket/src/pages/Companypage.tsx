@@ -58,7 +58,8 @@ const Companypage = () => {
     }, [])
 
     return (
-        <Grid.Container style={{marginLeft: "5%", marginTop: "2%"}}>
+        <Grid.Container style={{background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,46,161,1) 82%, rgba(0,91,110,1) 100%)'
+    }}>
             <Grid xs={6}>
                 { cine ? 
                     <CineCard cine={toCine(cine)}/>
